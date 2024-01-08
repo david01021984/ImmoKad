@@ -23,6 +23,15 @@ def scrapFor(word):
             except AttributeError:
                 print("Vide et none")
 
+def scrapForSplit(word):
+    if header.text == word:
+            x = table.find("td",class_="classified-table__data")
+            clean_x = (x.text.strip()).split(' ', 1)[0]                                                                          
+            try:
+                print(f"{word} : {clean_x.strip()}")
+            except AttributeError:
+                print("Vide et none")
+
 # Trouver le tableau par sa classe
 tables = soup.find_all('tr', class_='classified-table__row')
 #print(tables)
@@ -36,22 +45,12 @@ for table in tables:
         print(data.text)
 
     if header :
-        if header.text == "Surface du terrain":
-            superficie = table.find("td",class_="classified-table__data")
-            clean_superficie = (superficie.text.strip()).split(' ', 1)[0]                                                                         
-            try:
-                print(f"Superficie : {clean_superficie.strip()}")
-            except AttributeError:
-                print("Vide et none")
-
-        if header.text == "Adresse":
-            superficie = table.find("td",class_="classified-table__data")
-            clean_superficie = (superficie.text.strip()).split(' ', 1)[0]                                                                          
-            try:
-                print(f"Superficie : {clean_superficie.strip()}")
-            except AttributeError:
-                print("Vide et none")
-
+        scrapForSplit("Surface du terrain")
+        scrapForSplit("Surface du jardin")
+        scrapForSplit("Surface habitable")
+        scrapForSplit("Surface du salon")
+        scrapForSplit("Surface de la cuisine")
+        scrapForSplit("Surface du bureau")
 
         scrapFor("Chambres")        
         scrapFor("Classe énergétique")
