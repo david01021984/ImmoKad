@@ -7,7 +7,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 
 # URL du site web que vous souhaitez scraper
-url = "https://www.immoweb.be/fr/annonce/ferme/a-vendre/malle/2390/11051451"
+url = "https://www.immoweb.be/fr/annonce/maison/a-vendre/uccle/1180/11037509"
 driver = webdriver.Firefox()
 driver.implicitly_wait(15)
 driver.get(url)
@@ -28,18 +28,17 @@ tables = soup.find_all('tr', class_='classified-table__row')
 #print(tables)
 for table in tables:
     #print(table)
-    #print("#######")
+    print("#######")
     header = table.find("th", class_="classified-table__header")
-    #if header:
-    #    print(header.text)
-    #    data = table.find("td")
-    #    print(data.text)
+    if header:
+        print(header.text)
+        data = table.find("td")
+        print(data.text)
 
     if header :
         if header.text == "Surface du terrain":
             superficie = table.find("td",class_="classified-table__data")
-            clean_superficie = (superficie.text.strip()).split(' ', 1)[0]
-                                                                            
+            clean_superficie = (superficie.text.strip()).split(' ', 1)[0]                                                                         
             try:
                 print(f"Superficie : {clean_superficie.strip()}")
             except AttributeError:
@@ -47,8 +46,7 @@ for table in tables:
 
         if header.text == "Adresse":
             superficie = table.find("td",class_="classified-table__data")
-            clean_superficie = (superficie.text.strip()).split(' ', 1)[0]
-                                                                            
+            clean_superficie = (superficie.text.strip()).split(' ', 1)[0]                                                                          
             try:
                 print(f"Superficie : {clean_superficie.strip()}")
             except AttributeError:
@@ -58,9 +56,20 @@ for table in tables:
         scrapFor("Chambres")        
         scrapFor("Classe énergétique")
         scrapFor("Toilettes")
+        scrapFor("Salles de bains")
+        scrapFor("Salles de douche")
         scrapFor("Nombre de façades")
         scrapFor("État du bâtiment")
         scrapFor("À partir de")
+        scrapFor("Disponible le")
+        scrapFor("Type de cuisine")
+        scrapFor("Surface de la cuisine")
+        scrapFor("Parkings intérieurs")
+        scrapFor("Parkings extérieurs")
+        scrapFor("Terrasse")
+        scrapFor("Meublé")
+        scrapFor("Bureau")
+
 
 
 tables = soup.find_all('div', class_="classified__header-content")
@@ -76,9 +85,14 @@ for table in tables:
     address = table.find("span",class_="classified__information--address-row")
     
     localite = table.find("span",{"aria-hidden":"true"})
-    #(address.span.text.strip()).split(' ',-1)
-    print(f"Adresse : {address.text.strip()}")
+    clean_loc = (address.text.strip()).split(' ',1)[0]
+    print(f"Adresse : {clean_loc.strip()}")
+
+    type_de_batiment = table.find("div",class_="classified__header-primary-info")
+    clean_bat = (type_de_batiment.h1.text.strip()).split(' ',1)[0]
+    print(f"Type de batiment : {clean_bat.strip()}")
 
 
+tables = soup.find_all('tr', class_='classified-table__row')
     
   
