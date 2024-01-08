@@ -18,14 +18,16 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 # Trouver le tableau par sa classe
 tables = soup.find_all('tr', class_='classified-table__row')
+print(tables)
 for table in tables:
     header = table.find("th", class_="classified-table__header")
     #print(header)
     if header and header.text == "Surface du terrain":
         superficie = table.find("td",class_="classified-table__data")
+        clean_superficie = (superficie.text.strip()).split(' ', 1)[0]
                                                                         
         try:
-            print(f"Superficie : {superficie}")
+            print(f"Superficie : {clean_superficie}")
             #print(superficie)
         
         except AttributeError:
