@@ -30,10 +30,10 @@ for table in tables:
     #print(table)
     print("#######")
     header = table.find("th", class_="classified-table__header")
-    if header:
-        print(header.text)
-        data = table.find("td")
-        print(data.text)
+    #if header:
+    #    print(header.text)
+    #    data = table.find("td")
+    #    print(data.text)
 
     if header :
         if header.text == "Surface du terrain":
@@ -42,11 +42,18 @@ for table in tables:
                                                                             
             try:
                 print(f"Superficie : {clean_superficie.strip()}")
-                #print(superficie)
-            
             except AttributeError:
                 print("Vide et none")
-            #print(table.td)
+
+        if header.text == "Adresse":
+            superficie = table.find("td",class_="classified-table__data")
+            clean_superficie = (superficie.text.strip()).split(' ', 1)[0]
+                                                                            
+            try:
+                print(f"Superficie : {clean_superficie.strip()}")
+            except AttributeError:
+                print("Vide et none")
+
 
         scrapFor("Chambres")        
         scrapFor("Classe énergétique")
@@ -56,7 +63,22 @@ for table in tables:
         scrapFor("À partir de")
 
 
-        
+tables = soup.find_all('div', class_="classified__header-content")
+
+for table in tables:
+    #print(table)
+
+    header = table.find("th", class_="classified-table__header")
+    key = table.find("p",class_="classified__price")
+    price = (key.text.strip()).split(' ', 1)[0]
+    print(f"Le prix : {price.strip()}")
+
+    address = table.find("span",class_="classified__information--address-row")
+    
+    localite = table.find("span",{"aria-hidden":"true"})
+    #(address.span.text.strip()).split(' ',-1)
+    print(f"Adresse : {address.text.strip()}")
+
 
     
   
