@@ -39,10 +39,10 @@ for table in tables:
     #print(table)
     print("#######")
     header = table.find("th", class_="classified-table__header")
-    if header:
-        print(header.text)
-        data = table.find("td")
-        print(data.text)
+    # if header:
+    #     print(header.text)
+    #     data = table.find("td")
+    #     print(data.text)
 
     if header :
         scrapForSplit("Surface du terrain")
@@ -62,7 +62,6 @@ for table in tables:
         scrapFor("À partir de")
         scrapFor("Disponible le")
         scrapFor("Type de cuisine")
-        scrapFor("Surface de la cuisine")
         scrapFor("Parkings intérieurs")
         scrapFor("Parkings extérieurs")
         scrapFor("Terrasse")
