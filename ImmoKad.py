@@ -28,7 +28,7 @@ tables = soup.find_all('tr', class_='classified-table__row')
 #print(tables)
 for table in tables:
     #print(table)
-    print("#######")
+    #print("#######")
     header = table.find("th", class_="classified-table__header")
     #if header:
     #    print(header.text)
