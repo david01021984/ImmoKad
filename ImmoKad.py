@@ -1,4 +1,7 @@
 import requests
+from datetime import datetime
+import os
+import pandas as pd
 import time
 from bs4 import BeautifulSoup
 import json
@@ -8,16 +11,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 
-links = [ 'https://www.immoweb.be/fr/annonce/maison/a-vendre/wetteren/9230/11058079',
-         'https://www.immoweb.be/fr/annonce/maison/a-vendre/marche-en-famenne/6900/11058166',
-         'https://www.immoweb.be/fr/annonce/maison/a-vendre/gand/9000/11058202',
-         'https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/erembodegem/9320/11057821',
-         'https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/grammont/9500/11001458',
-         'https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/hofstade/9308/11001463',
-         'https://www.immoweb.be/fr/annonce/appartement/a-vendre/gavere/9890/11050973',
-         'https://www.immoweb.be/fr/annonce/appartement/a-vendre/gavere/9890/11050978',
-         'https://www.immoweb.be/fr/annonce/appartement/a-vendre/bruxelles/1000/11058606'
+# Get the current date and time
+current_datetime = datetime.now()
 
+# Format the date and time as a string
+formatted_datetime = current_datetime.strftime("%Y%m%d_%H%M%S")
+
+# Create the file name using the formatted date and time
+file_name = f"records_{formatted_datetime}.csv"
+
+links = ["https://www.immoweb.be/fr/annonce/appartement/a-vendre/gavere/9890/11050973",
+    "https://www.immoweb.be/fr/annonce/maison/a-vendre/mechelen/2800/11059542",
+    "https://www.immoweb.be/fr/annonce/appartement/a-vendre/gavere/9890/11050973",
 ]
 
 for link in links :
@@ -101,42 +106,55 @@ for link in links :
     price = classified_data['transaction']['sale']['price']
     transac_info = classified_data['transaction']
 
-    # Print the retrieved information
-    print("Property Type:", property_type)
-    print("Property Subtype:", property_subtype)
-    print("Region :", region)
-    print("City :", city)
-    print("CP :", postal)
+
+    # Creating a DataFrame
+    data = {
+        "Property Type": [property_type],
+        "Property Subtype": [property_subtype],
+        "Region": [region],
+        "City": [city],
+        "CP": [postal],
+        "Agency Name": [agency_name],
+        "Agency Email": [agency_email],
+        "Agency Phone": [agency_phone],
+        "Type de vente": [bail],
+        "Price": [price],
+        "Nombre de façades": [nb_facades],
+        "Nombre de chambres": [bedrooms],
+        "Nombre de salles de bain": [bathrooms],
+        "Nombre de douches": [showers],
+        "Nombre de toilettes": [wc],
+        "Nombre de pièces": [rooms],
+        "Nombre de parking intérieurs": [parkings_in],
+        "Nombre de parking extérieurs": [parkings_out],
+        "Type de cuisine": [kitchen_type],
+        "État du bâtiment": [building_condition],
+        "Surface habitable": [surface],
+        "Surface jardin": [garden_size],
+        "Surface totale": [surface_land],
+        "Basement": [has_basement],
+        "Dressing": [has_dressing],
+        "Dining Room": [has_dining_room],
+        "Meublé": [is_furnished],
+        "Cheminée": [has_fire_place],
+        "Terrasse": [has_balcony],
+        "Jardin": [has_garden],
+        "Piscine": [has_swimming_pool],
+    }
+
+    # Check if the file exists
+    file_exists = os.path.isfile(file_name)
 
 
+    df = pd.DataFrame(data)
 
-    print("Agency Name:", agency_name)
-    print("Agency Email:", agency_email)
-    print("Agency Phone:", agency_phone)
-    print("Type de vente : ", bail)
+    # Save the header only if the file doesn't exist
+    if not file_exists:
+        df.to_csv(file_name, header=True, index=False)
+    else :
+        # Save to CSV
+        df.to_csv(file_name, mode = 'a',header=False, index=False)
 
-    print("Price:", price)
-
-    print("Nombre de façades :", nb_facades)
-    print("Nombre de chambres", bedrooms)
-    print("Nombre de salles de bain", bathrooms)
-    print("Nombre de douches :", showers)
-    print("Nombre de toilettes :", wc)
-    print("Nombre de pièces :", rooms)
-    print("Nombre de parking intérieurs :", parkings_in)
-    print("Nombre de parking intérieurs :", parkings_out)
-    print("Type de cuisine :", kitchen_type)
-    print("État du bâtiment :", building_condition)
-    print("Surface habitable :", surface)
-    print("Surface jardin :", garden_size)
-    print("Surface totale :", surface_land)
-    print("Basement :", has_basement)
-    print("Dressing :", has_dressing)
-    print("Dining Room :", has_dining_room)
-    print("Meublé :", is_furnished)
-    print("Cheminée :", has_fire_place )
-    print("Terrasse :", has_balcony)
-    print("Jardin :", has_garden)
-    print("Piscine :",has_swimming_pool )
-
-    time.sleep(1.5)
+   
+    time.sleep(0.2)
+    driver.quit()
