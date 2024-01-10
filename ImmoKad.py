@@ -38,134 +38,138 @@ print(links)
 
 for link in links :
     # URL du site web que vous souhaitez scraper
-    driver = webdriver.Firefox()
-    driver.implicitly_wait(1)
-    driver.get(link)
+    #driver = webdriver.Firefox()
+    #driver.implicitly_wait(0.2)
+    #driver.get(link)
+    # Fetch HTML content using requests
+    response = requests.get(link)
 
-    # Utiliser BeautifulSoup pour analyser le contenu HTML de la page
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    if response.status_code == 200:
 
-    html = soup.find("script",attrs={"type":"text/javascript"})
+        # Utiliser BeautifulSoup pour analyser le contenu HTML de la page
+        soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Find the script tag containing the window.classified object
-    #script_tag = soup.find('script', text=lambda x: 'window.classified =' in x)
+        html = soup.find("script",attrs={"type":"text/javascript"})
 
-    # Extract the content of the script tag
-    script_content = html.text.strip()
+        # Find the script tag containing the window.classified object
+        #script_tag = soup.find('script', text=lambda x: 'window.classified =' in x)
 
-    # Extract the window.classified object from the script content
-    start_index = script_content.find('{')
-    end_index = script_content.rfind('}') + 1
-    classified_json = script_content[start_index:end_index]
+        # Extract the content of the script tag
+        script_content = html.text.strip()
 
-    # Parse the JSON data
-    classified_data = json.loads(classified_json)
+        # Extract the window.classified object from the script content
+        start_index = script_content.find('{')
+        end_index = script_content.rfind('}') + 1
+        classified_json = script_content[start_index:end_index]
 
-    # Access specific information
-    property_type = classified_data['property']['type']
-    property_subtype = classified_data['property']['subtype']
-    region = classified_data['property']['location']['region']
-    city = classified_data['property']['location']['locality']
-    postal = classified_data['property']['location']['postalCode']
-    showers = classified_data['property']['showerRoomCount']
-    bedrooms = classified_data['property']['bedroomCount']
-    bathrooms = classified_data['property']['bathroomCount']
-    parkings_in = classified_data['property']['parkingCountIndoor']
-    parkings_out = classified_data['property']['parkingCountOutdoor']
-    garden_size = classified_data['property']['gardenSurface']
+        # Parse the JSON data
+        classified_data = json.loads(classified_json)
 
-    rooms = classified_data['property']['roomCount']
-    surface = classified_data['property']['netHabitableSurface']
-    wc = classified_data['property']['toiletCount']
+        # Access specific information
+        property_type = classified_data['property']['type']
+        property_subtype = classified_data['property']['subtype']
+        region = classified_data['property']['location']['region']
+        city = classified_data['property']['location']['locality']
+        postal = classified_data['property']['location']['postalCode']
+        showers = classified_data['property']['showerRoomCount']
+        bedrooms = classified_data['property']['bedroomCount']
+        bathrooms = classified_data['property']['bathroomCount']
+        parkings_in = classified_data['property']['parkingCountIndoor']
+        parkings_out = classified_data['property']['parkingCountOutdoor']
+        garden_size = classified_data['property']['gardenSurface']
 
-    has_basement = 1 if classified_data['property']['hasBasement'] == True else 0
-    has_dressing = 1 if classified_data['property']['hasDressingRoom'] == True else 0
-    has_dining_room = 1 if classified_data['property']['hasDiningRoom'] == True else 0
-    is_furnished = 1 if classified_data['transaction']['sale']['isFurnished'] == True else 0
-    has_swimming_pool = 1 if classified_data['property']['hasSwimmingPool'] == True else 0
-    has_fire_place =  1 if classified_data['property']['fireplaceExists'] == True else 0
-    has_garden = 1 if classified_data['property']['hasGarden'] == True else 0 
-    has_balcony = 1 if classified_data['property']['hasBalcony'] == True else 0 
+        rooms = classified_data['property']['roomCount']
+        surface = classified_data['property']['netHabitableSurface']
+        wc = classified_data['property']['toiletCount']
 
-    bail = classified_data['transaction']['subtype']
-    kitchen_info = classified_data['property']['kitchen']
-    if kitchen_info != None:
-        kitchen_type = kitchen_info['type']
-    else :
-        kitchen_type = None
+        has_basement = 1 if classified_data['property']['hasBasement'] == True else 0
+        has_dressing = 1 if classified_data['property']['hasDressingRoom'] == True else 0
+        has_dining_room = 1 if classified_data['property']['hasDiningRoom'] == True else 0
+        is_furnished = 1 if classified_data['transaction']['sale']['isFurnished'] == True else 0
+        has_swimming_pool = 1 if classified_data['property']['hasSwimmingPool'] == True else 0
+        has_fire_place =  1 if classified_data['property']['fireplaceExists'] == True else 0
+        has_garden = 1 if classified_data['property']['hasGarden'] == True else 0 
+        has_balcony = 1 if classified_data['property']['hasBalcony'] == True else 0 
 
-    building = classified_data['property']['building']
-    if building != None : 
-        nb_facades = classified_data['property']['building']['facadeCount'] 
-        building_condition = classified_data['property']['building']['condition']
-    else : 
-        nb_facades = None
-        building_condition = None
+        bail = classified_data['transaction']['subtype']
+        kitchen_info = classified_data['property']['kitchen']
+        if kitchen_info != None:
+            kitchen_type = kitchen_info['type']
+        else :
+            kitchen_type = None
+
+        building = classified_data['property']['building']
+        if building != None : 
+            nb_facades = classified_data['property']['building']['facadeCount'] 
+            building_condition = classified_data['property']['building']['condition']
+        else : 
+            nb_facades = None
+            building_condition = None
+
+        
+
+        land = classified_data['property']['land']
+        if land != None :
+            surface_land = classified_data['property']['land']['surface']
+        else : surface_land = None
+
+        agency_name = classified_data['customers'][0]['name']
+        agency_email = classified_data['customers'][0]['email']
+        agency_phone = classified_data['customers'][0]['phoneNumber']
+        agency_info = classified_data['customers']
+
+        price = classified_data['transaction']['sale']['price']
+        transac_info = classified_data['transaction']
+
+
+        # Creating a DataFrame
+        data = {
+            "Property Type": [property_type],
+            "Property Subtype": [property_subtype],
+            "Region": [region],
+            "City": [city],
+            "CP": [postal],
+            "Agency Name": [agency_name],
+            "Agency Email": [agency_email],
+            "Agency Phone": [agency_phone],
+            "Type de vente": [bail],
+            "Price": [price],
+            "Nombre de façades": [nb_facades],
+            "Nombre de chambres": [bedrooms],
+            "Nombre de salles de bain": [bathrooms],
+            "Nombre de douches": [showers],
+            "Nombre de toilettes": [wc],
+            "Nombre de pièces": [rooms],
+            "Nombre de parking intérieurs": [parkings_in],
+            "Nombre de parking extérieurs": [parkings_out],
+            "Type de cuisine": [kitchen_type],
+            "État du bâtiment": [building_condition],
+            "Surface habitable": [surface],
+            "Surface jardin": [garden_size],
+            "Surface totale": [surface_land],
+            "Basement": [has_basement],
+            "Dressing": [has_dressing],
+            "Dining Room": [has_dining_room],
+            "Meublé": [is_furnished],
+            "Cheminée": [has_fire_place],
+            "Terrasse": [has_balcony],
+            "Jardin": [has_garden],
+            "Piscine": [has_swimming_pool],
+        }
+
+        # Check if the file exists
+        file_exists = os.path.isfile(csv_file_name)
+
+
+        df = pd.DataFrame(data)
+
+        # Save the header only if the file doesn't exist
+        if not file_exists:
+            df.to_csv(csv_file_name, header=True, index=False)
+        else :
+            # Save to CSV
+            df.to_csv(csv_file_name, mode = 'a',header=False, index=False)
 
     
-
-    land = classified_data['property']['land']
-    if land != None :
-        surface_land = classified_data['property']['land']['surface']
-    else : surface_land = None
-
-    agency_name = classified_data['customers'][0]['name']
-    agency_email = classified_data['customers'][0]['email']
-    agency_phone = classified_data['customers'][0]['phoneNumber']
-    agency_info = classified_data['customers']
-
-    price = classified_data['transaction']['sale']['price']
-    transac_info = classified_data['transaction']
-
-
-    # Creating a DataFrame
-    data = {
-        "Property Type": [property_type],
-        "Property Subtype": [property_subtype],
-        "Region": [region],
-        "City": [city],
-        "CP": [postal],
-        "Agency Name": [agency_name],
-        "Agency Email": [agency_email],
-        "Agency Phone": [agency_phone],
-        "Type de vente": [bail],
-        "Price": [price],
-        "Nombre de façades": [nb_facades],
-        "Nombre de chambres": [bedrooms],
-        "Nombre de salles de bain": [bathrooms],
-        "Nombre de douches": [showers],
-        "Nombre de toilettes": [wc],
-        "Nombre de pièces": [rooms],
-        "Nombre de parking intérieurs": [parkings_in],
-        "Nombre de parking extérieurs": [parkings_out],
-        "Type de cuisine": [kitchen_type],
-        "État du bâtiment": [building_condition],
-        "Surface habitable": [surface],
-        "Surface jardin": [garden_size],
-        "Surface totale": [surface_land],
-        "Basement": [has_basement],
-        "Dressing": [has_dressing],
-        "Dining Room": [has_dining_room],
-        "Meublé": [is_furnished],
-        "Cheminée": [has_fire_place],
-        "Terrasse": [has_balcony],
-        "Jardin": [has_garden],
-        "Piscine": [has_swimming_pool],
-    }
-
-    # Check if the file exists
-    file_exists = os.path.isfile(csv_file_name)
-
-
-    df = pd.DataFrame(data)
-
-    # Save the header only if the file doesn't exist
-    if not file_exists:
-        df.to_csv(csv_file_name, header=True, index=False)
-    else :
-        # Save to CSV
-        df.to_csv(csv_file_name, mode = 'a',header=False, index=False)
-
-   
-    time.sleep(0.2)
-    driver.quit()
+        time.sleep(0.2)
+    #driver.quit()

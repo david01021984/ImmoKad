@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 
 i=1
 tabLinks = []
-while i <= 5:
+while i <= 333:
     lien = (f"https://www.immoweb.be/fr/recherche/maison-et-appartement/a-vendre?countries=BE&priceType=SALE_PRICE&page={i}")
     
     # URL du site web que vous souhaitez scraper
