@@ -33,8 +33,6 @@ with open('url_list.txt', 'r') as file:
     # Read each line and strip newline characters
     links = [line.strip() for line in file]
 
-# Print the list of URLs
-print(links)
 
 def process_link(link):
     try:
@@ -165,7 +163,7 @@ def process_link(link):
                 df.to_csv(csv_file_name, mode = 'a',header=False, index=False)
 
         
-            time.sleep(0.1)
+            time.sleep(0.01)
         
         else:
                 print(f"Failed to fetch content for URL: {link}")
