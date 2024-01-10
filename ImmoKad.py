@@ -18,17 +18,28 @@ current_datetime = datetime.now()
 formatted_datetime = current_datetime.strftime("%Y%m%d_%H%M%S")
 
 # Create the file name using the formatted date and time
-file_name = f"records_{formatted_datetime}.csv"
+csv_file_name = rf'RECORDS/records_{formatted_datetime}.csv'
 
-links = ["https://www.immoweb.be/fr/annonce/appartement/a-vendre/gavere/9890/11050973",
-    "https://www.immoweb.be/fr/annonce/maison/a-vendre/mechelen/2800/11059542",
-    "https://www.immoweb.be/fr/annonce/appartement/a-vendre/gavere/9890/11050973",
-]
+# # Get the current script's directory
+# script_directory = os.path.dirname(os.path.abspath(__file__))
+
+# # Specify the relative path to the urls.txt file
+# file_path = os.path.join(script_directory, csv_file_name)
+
+
+# Open the file in read mode
+with open('url_list.txt', 'r') as file:
+    # Read each line and strip newline characters
+    links = [line.strip() for line in file]
+
+# Print the list of URLs
+print(links)
+
 
 for link in links :
     # URL du site web que vous souhaitez scraper
     driver = webdriver.Firefox()
-    driver.implicitly_wait(15)
+    driver.implicitly_wait(1)
     driver.get(link)
 
     # Utiliser BeautifulSoup pour analyser le contenu HTML de la page
@@ -143,17 +154,17 @@ for link in links :
     }
 
     # Check if the file exists
-    file_exists = os.path.isfile(file_name)
+    file_exists = os.path.isfile(csv_file_name)
 
 
     df = pd.DataFrame(data)
 
     # Save the header only if the file doesn't exist
     if not file_exists:
-        df.to_csv(file_name, header=True, index=False)
+        df.to_csv(csv_file_name, header=True, index=False)
     else :
         # Save to CSV
-        df.to_csv(file_name, mode = 'a',header=False, index=False)
+        df.to_csv(csv_file_name, mode = 'a',header=False, index=False)
 
    
     time.sleep(0.2)

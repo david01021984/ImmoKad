@@ -1,4 +1,5 @@
 import requests
+import csv
 from datetime import datetime
 import time
 from bs4 import BeautifulSoup
@@ -52,4 +53,4 @@ chemin = f"url_list_{formatted_datetime}.txt"
 with open(chemin, 'w') as fichier:
     # Écrire chaque élément de la liste dans une ligne du fichier
     for element in clean_list:
-        fichier.write('"' + (element) + '"' + ","  +'\n')
+        fichier.write((element)+'\n')
