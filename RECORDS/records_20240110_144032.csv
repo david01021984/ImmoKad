@@ -1,0 +1,7 @@
+Property Type,Property Subtype,Region,City,CP,Agency Name,Agency Email,Agency Phone,Type de vente,Price,Nombre de façades,Nombre de chambres,Nombre de salles de bain,Nombre de douches,Nombre de toilettes,Nombre de pièces,Nombre de parking intérieurs,Nombre de parking extérieurs,Type de cuisine,État du bâtiment,Surface habitable,Surface jardin,Surface totale,Basement,Dressing,Dining Room,Meublé,Cheminée,Terrasse,Jardin,Piscine
+HOUSE,APARTMENT_BLOCK,Wallonie,Liege,4000,GROUP SKYIMMO,demande@skyimmo.be,+32 4 250 02 61,BUY_REGULAR,280000,3,5,2,2,2,,,,INSTALLED,GOOD,172,,130,1,0,1,0,0,0,0,0
+HOUSE,HOUSE,Bruxelles,BERCHEM-SAINTE-AGATHE,1082,Best Partner Immobilière - Bruxelles,bestpartnerbxl@omniwebsites.be,+32 2 344 25 89,BUY_REGULAR,425000,2,4,1,1,2,,1,1,,TO_RENOVATE,159,68,179,1,0,0,0,1,0,1,0
+HOUSE,HOUSE,Flandres,Mol,2400,Immo Van Hees,vanhees@omniwebsites.be,,BUY_REGULAR,235000,3,3,1,0,1,,3,1,SEMI_EQUIPPED,GOOD,167,,435,1,0,0,0,1,0,0,0
+HOUSE,HOUSE,Flandres,Audenarde,9700,Dewaele-woonvastgoed Oudenaarde,oudenaarde@dewaele.com,+32 55 20 80 20,BUY_REGULAR,365000,2,5,1,0,2,,,,,GOOD,234,,4224,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Liège,4032,Sciara Immo,immobilieresciara@importfrommedia.be,+32 4 366 00 26,BUY_REGULAR,179000,2,4,1,1,2,,1,,INSTALLED,TO_BE_DONE_UP,76,65,134,1,0,1,0,0,0,1,0
+APARTMENT,APARTMENT,Flandres,Beveren,9120,Walls Vastgoedmakelaars Linkeroever & Waasland,walls_heart_linkeroever@importfrommedia.be,+32 3 233 33 00,BUY_REGULAR,485000,,2,2,0,2,,,,HYPER_EQUIPPED,AS_NEW,142,,,0,0,0,0,0,0,0,0

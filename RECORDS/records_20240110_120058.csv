@@ -1,0 +1,4 @@
+Property Type,Property Subtype,Region,City,CP,Agency Name,Agency Email,Agency Phone,Type de vente,Price,Nombre de façades,Nombre de chambres,Nombre de salles de bain,Nombre de douches,Nombre de toilettes,Nombre de pièces,Nombre de parking intérieurs,Nombre de parking extérieurs,Type de cuisine,État du bâtiment,Surface habitable,Surface jardin,Surface totale,Basement,Dressing,Dining Room,Meublé,Cheminée,Terrasse,Jardin,Piscine
+APARTMENT,APARTMENT,Flandres,Gavere,9890,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,269700,4,1,1,0,1,,1,1,HYPER_EQUIPPED,AS_NEW,76,,,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Flandres,MECHELEN,2800,De Makelaardij,demakelaardij@omniwebsites.be,+32 15 20 20 82,BUY_REGULAR,925000,2,10,1,0,4,,,,INSTALLED,GOOD,399,,157,1,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Gavere,9890,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,269700,4,1,1,0,1,,1,1,HYPER_EQUIPPED,AS_NEW,76,,,0,0,0,0,0,0,0,0
