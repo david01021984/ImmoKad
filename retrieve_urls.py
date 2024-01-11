@@ -8,50 +8,47 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
+from concurrent.futures import ThreadPoolExecutor
 
-i=1
 tabLinks = []
-while i <= 213:
-    lien = (f"https://www.immoweb.be/fr/recherche/maison-et-appartement/a-vendre?countries=BE&priceType=SALE_PRICE&page={i}")
+
+def fetch_links(page_number):
+    lien = f"https://www.immoweb.be/fr/recherche/maison-et-appartement/a-vendre?countries=BE&priceType=SALE_PRICE&page={page_number}"
     
-    # URL du site web que vous souhaitez scraper
-    url = requests.get(lien).text
-    # driver = webdriver.Edge()
-    # driver.get(lien)
-    
-    i += 1
+    # Obtenir le contenu de la page
+    response = requests.get(lien)
+    soup = BeautifulSoup(response.text, "lxml")
 
-    nbr_entree = 0
-
-
-    # def enter_url():
-    soup = BeautifulSoup(url, "lxml")
     brutlinks = soup.find_all("a")
-    
+
     for brutlink in brutlinks:
-        
-        link = brutlink["href"]
+        link = brutlink.get("href", "")
 
         if "https://www.immoweb.be/fr/annonce/" in link and "projet" not in link:
             tabLinks.append(link)
-        else:
-            continue
-           
-      
-    time.sleep(0.12)
 
-clean_list=set(tabLinks)
+    time.sleep(0.02)
 
-current_datetime = datetime.now()
+def main():
+    num_threads = 4
+    # Nombre de pages à parcourir
+    num_pages = 220
 
-# Format the date and time as a string
-formatted_datetime = current_datetime.strftime("%Y%m%d_%H%M%S")
+    # Utiliser ThreadPoolExecutor pour paralléliser le travail
+    with ThreadPoolExecutor(max_workers=num_threads) as executor:
+        # Soumettre les tâches à l'exécuteur pour chaque page
+        executor.map(fetch_links, range(1, num_pages))
 
-# Create the file name using the formatted date and time
- 
-chemin = f"url_list_{formatted_datetime}.txt"
+    # Supprimer les doublons de la liste
+    clean_list = set(tabLinks)
 
-with open(chemin, 'w') as fichier:
-    # Écrire chaque élément de la liste dans une ligne du fichier
-    for element in clean_list:
-        fichier.write((element)+'\n')
+    current_datetime = datetime.now()
+    formatted_datetime = current_datetime.strftime("%Y%m%d_%H%M%S")
+    chemin = f"url_list_{formatted_datetime}.txt"
+
+    with open(chemin, 'w') as fichier:
+        for element in clean_list:
+            fichier.write((element) + '\n')
+
+if __name__ == "__main__":
+    main()
