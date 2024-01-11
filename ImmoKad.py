@@ -36,6 +36,7 @@ with open('url_list.txt', 'r') as file:
 
 def process_link(link):
     try:
+        #s = requests.Session()
         # Fetch HTML content using requests
         response = requests.get(link)
 
@@ -82,6 +83,7 @@ def process_link(link):
             has_fire_place =  1 if classified_data['property']['fireplaceExists'] == True else 0
             has_garden = 1 if classified_data['property']['hasGarden'] == True else 0 
             has_balcony = 1 if classified_data['property']['hasBalcony'] == True else 0 
+            has_terrasse = 1 if classified_data['property']['hasTerrace'] == True else 0
 
             bail = classified_data['transaction']['subtype']
             kitchen_info = classified_data['property']['kitchen']
@@ -144,7 +146,8 @@ def process_link(link):
                 "Dining Room": [has_dining_room],
                 "Meublé": [is_furnished],
                 "Cheminée": [has_fire_place],
-                "Terrasse": [has_balcony],
+                "Balcon": [has_balcony],
+                "Terrasse":[has_terrasse],
                 "Jardin": [has_garden],
                 "Piscine": [has_swimming_pool],
             }
@@ -159,7 +162,7 @@ def process_link(link):
             if not file_exists:
                 df.to_csv(csv_file_name, header=True, index=False)
             else :
-                # Save to CSV
+                # Save to CSV only the value without header
                 df.to_csv(csv_file_name, mode = 'a',header=False, index=False)
 
         
@@ -172,7 +175,7 @@ def process_link(link):
         print(f"An error occurred while processing {link}: {e}")
 
 # Number of threads to use
-num_threads = 4  # Adjust based on your system's capabilities
+num_threads = 4 
 
 # Using ThreadPoolExecutor to parallelize the job
 with ThreadPoolExecutor(max_workers=num_threads) as executor:
