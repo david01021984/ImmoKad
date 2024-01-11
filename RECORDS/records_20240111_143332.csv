@@ -7144,3 +7144,313 @@ APARTMENT,APARTMENT,Flandres,Neeroeteren,3680,Vastgoed Immoké,immoke@contactme.
 APARTMENT,APARTMENT,Flandres,Anvers,2000,Heylen Exclusief,heylenvastgoed@omniwebsites.be,+32 800 29 223,BUY_REGULAR,750000,2,2,1,0,2,,,,INSTALLED,GOOD,135,,,1,0,0,0,1,0,1,1,0
 APARTMENT,APARTMENT,Flandres,Anvers,2660,Walls Vastgoedmakelaars,walls_heart_antwerpen@importfrommedia.be,+32 3 233 33 00,BUY_REGULAR,199000,2,2,1,0,1,,,,SEMI_EQUIPPED,GOOD,72,,,0,0,0,0,0,0,1,0,0
 HOUSE,EXCEPTIONAL_PROPERTY,Flandres,Brugge,8000,Immo la clé,info@immolacle.be,+32 50 39 39 36,BUY_REGULAR,545000,,3,,0,,,,,HYPER_EQUIPPED,GOOD,,,410,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Geel,2440,Verlinden Vastgoed,info@verlindenvastgoed.be,+32 14 75 67 56,BUY_REGULAR,495000,4,5,1,0,2,6,1,1,,GOOD,296,,3578,0,0,0,0,0,0,1,0,0
+HOUSE,FARMHOUSE,Wallonie,FLÉMALLE,4400,C. Roufosse Affaires Immobilières,roufousse-kfaah9@omniwebsites.be,+32 4 234 21 10,BUY_REGULAR,369000,3,4,1,1,2,,2,,SEMI_EQUIPPED,GOOD,165,950,1470,1,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,Berchem,2600,Immo De Laet,immodelaet@omniwebsites.be,+32 3 644 00 88,BUY_REGULAR,295000,3,3,1,0,2,,1,2,SEMI_EQUIPPED,TO_RENOVATE,100,110,240,1,0,0,0,1,0,0,1,0
+APARTMENT,APARTMENT,Flandres,Poederlee,2275,Heylen Vastgoed Herentals,heylenvastgoed@omniwebsites.be,+32 14 70 51 58,BUY_REGULAR,310000,2,3,1,0,1,,,,INSTALLED,,113,,,1,0,0,0,1,0,1,0,0
+HOUSE,MANSION,Flandres,Anvers,2018,Hans immo.,hansimmo-wr5pzi@omniwebsites.be,+32 3 290 30 30,BUY_REGULAR,895000,2,6,3,0,3,,,,SEMI_EQUIPPED,GOOD,360,16,110,1,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,Londerzeel,1840,Immo Rottiers,immorottiers_472@importfrommedia.be,+32 52 62 00 30,BUY_REGULAR,450000,4,3,1,0,2,,1,2,INSTALLED,GOOD,237,200,687,1,0,0,0,0,0,1,1,0
+APARTMENT,SERVICE_FLAT,Flandres,Gand,9000,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,450000,2,2,1,0,2,,,,USA_HYPER_EQUIPPED,GOOD,127,85,,0,0,0,0,0,0,1,1,0
+HOUSE,EXCEPTIONAL_PROPERTY,Flandres,Anvers,2018,Immodôme,immodome_524@importfrommedia.be,,BUY_REGULAR,1995000,3,2,2,0,3,,,2,USA_HYPER_EQUIPPED,GOOD,382,160,450,1,0,0,0,0,0,0,1,0
+HOUSE,HOUSE,Wallonie,Arlon,6700,We Invest Sud-Luxembourg,storage4563_979@importfrommedia.be,+32 63 33 00 69,BUY_REGULAR,290000,3,4,1,1,2,,,,USA_SEMI_EQUIPPED,GOOD,253,583,632,1,0,1,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Hoboken,2660,Chase,chasevastgoed@omniwebsites.be,+32 3 740 03 90,BUY_REGULAR,249000,2,2,1,0,1,,,,SEMI_EQUIPPED,GOOD,140,60,155,1,0,0,0,1,0,0,1,0
+HOUSE,VILLA,Flandres,Haasdonk,9120,Huysewinkel Waasland,huysewinkelwaasmunster@contactme.skarabee.com,+32 3 777 77 11,BUY_REGULAR,786000,4,4,2,0,2,1,4,,,GOOD,297,,1981,0,0,1,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Hoboken,2660,Hans immo.,hansimmo-wr5pzi@omniwebsites.be,+32 3 290 30 30,BUY_REGULAR,264900,2,2,1,0,2,,,,INSTALLED,GOOD,127,40,102,1,0,0,0,1,0,0,1,0
+APARTMENT,APARTMENT,Bruxelles,Anderlecht,1070,Het Woonburo bv,hetwoonb_dilbeek@importfrommedia.be,+32 2 582 55 83,BUY_REGULAR,233000,,2,1,0,,,1,,SEMI_EQUIPPED,TO_BE_DONE_UP,58,,,1,0,0,0,0,0,1,0,0
+APARTMENT,GROUND_FLOOR,Flandres,Liedekerke,1770,Accenta,immoacce_affligem@importfrommedia.be,+32 53 41 57 92,BUY_REGULAR,305000,2,2,1,0,1,,1,1,HYPER_EQUIPPED,AS_NEW,109,,,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1000,DLDproperties,storage8408_574@importfrommedia.be,+32 2 315 16 57,BUY_REGULAR,265000,2,3,1,0,1,,,35,NOT_INSTALLED,TO_RENOVATE,105,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Anvers,2000,UGLY,vastgoed_berchem@importfrommedia.be,+32 3 309 10 10,BUY_REGULAR,269000,,1,1,0,1,,,,USA_HYPER_EQUIPPED,,74,,,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Gavere,9890,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,368500,4,3,1,0,1,,1,1,HYPER_EQUIPPED,AS_NEW,112,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Hampteau,6990,PICARD immo,storage6286_436@importfrommedia.be,+32 84 46 84 00,BUY_REGULAR,224000,3,5,1,1,2,,1,2,INSTALLED,GOOD,196,705,899,0,0,1,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Ternat,1740,Locals Vastgoed,storage3140_652@importfrommedia.be,+32 54 23 53 83,BUY_REGULAR,990000,4,4,2,2,3,,2,5,HYPER_EQUIPPED,AS_NEW,702,,1790,1,0,0,0,0,0,1,0,0
+APARTMENT,PENTHOUSE,Flandres,Nazareth,9810,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,601000,2,3,2,0,1,,,1,USA_HYPER_EQUIPPED,AS_NEW,146,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Houyet,5560,Wellimmo sprl,storage3337_722@importfrommedia.be,,BUY_REGULAR,170000,2,3,1,0,1,,,,SEMI_EQUIPPED,GOOD,85,539,539,1,0,1,0,0,0,1,1,0
+APARTMENT,APARTMENT,Wallonie,Libramont-Chevigny,6800,Honesty Libramont - 7 bureaux proches de chez vous,honesty_libramont-chevig@importfrommedia.be,+32 61 29 24 14,BUY_REGULAR,199000,4,2,1,0,1,,,14,NOT_INSTALLED,AS_NEW,73,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Wemmel,1780,Le Parcours du Propriétaire,ppr@omniwebsites.be ,+32 10 42 02 22,BUY_REGULAR,255000,2,2,1,0,1,,,,SEMI_EQUIPPED,GOOD,90,,,1,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Wallonie,Ottignies-Louvain-la-Neuve,1340,Hendrix Immobilière,immobilierehendrix_bierges@importfrommedia.be,+32 10 23 87 00,BUY_REGULAR,395000,3,3,1,0,2,,,,SEMI_EQUIPPED,TO_BE_DONE_UP,160,,392,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Oostakker,9041,Axel Lenaerts makelaars Gent,axellenaertsgent@omniwebsites.be,+32 9 245 24 24,BUY_REGULAR,345000,2,2,1,0,1,,,,INSTALLED,,95,,,0,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Wallonie,Braine-l'Alleud,1421,,,,BUY_REGULAR,249000,2,3,1,0,,,,,NOT_INSTALLED,TO_RENOVATE,132,106,105,1,0,0,0,1,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Deurne,2100,Hans immo.,hansimmo-wr5pzi@omniwebsites.be,+32 3 290 30 30,BUY_REGULAR,174900,3,1,1,0,1,,,,INSTALLED,JUST_RENOVATED,61,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Deurne,2100,CENTURY 21 Advieskantoor,c21advieskantoor@omniwebsites.be,,BUY_REGULAR,169000,,2,1,0,1,,,1,SEMI_EQUIPPED,TO_BE_DONE_UP,95,,,0,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Flandres,Roeselare,8800,Immo Francois,contact@immofrancois.be,+32 51 47 47 46,BUY_REGULAR,369000,3,3,1,0,2,4,,1,,GOOD,155,,321,0,0,0,0,0,0,1,0,0
+APARTMENT,PENTHOUSE,Bruxelles,Woluwe-Saint-Lambert,1200,ABITA IMMO,immoabita_woluwe_st_lambert@importfrommedia.be,+32 2 726 89 75,BUY_REGULAR,260000,2,1,1,1,1,,,1,HYPER_EQUIPPED,AS_NEW,57,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Edegem,2650,CENTURY 21 Anders Wonen,storage5475_845@importfrommedia.be,+32 3 369 69 21,BUY_REGULAR,289000,,2,1,0,1,,,,,AS_NEW,80,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Oupeye,4680,GROUP SKYIMMO,demande@skyimmo.be,+32 4 250 02 61,BUY_REGULAR,349500,4,4,1,1,2,,1,,HYPER_EQUIPPED,AS_NEW,180,90,290,0,0,1,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Glabbeek,3380,GVE Immobilien,gveimmob_bertem@importfrommedia.be,+32 16 56 56 14,BUY_REGULAR,359000,4,4,1,0,,,2,6,,TO_RENOVATE,187,2200,2865,1,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Wallonie,Ciney,5590,Vos Agences Condrogest Ciney,ciney@condrogest.be,+32 83 21 24 25,BUY_REGULAR,380000,,6,3,0,4,9,,,,GOOD,260,370,370,1,0,0,0,0,0,0,1,0
+APARTMENT,DUPLEX,Flandres,Gent Sint-Denijs-Westrem,9051,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,1016000,4,2,2,0,2,3,,1,HYPER_EQUIPPED,AS_NEW,108,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Avelgem,8580,IMMO BEGUIN,beguinwaregem@omniwebsites.be,,BUY_REGULAR,155000,2,2,1,0,1,,1,,SEMI_EQUIPPED,GOOD,90,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,BRUXELLES,1000,Trevi,immov@omniwebsites.be,+32 2 340 24 92,BUY_REGULAR,395000,,2,1,0,2,,2,,USA_HYPER_EQUIPPED,GOOD,101,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1000,Vaneau Lecobel  Bruxelles Sud,lecobel_vente@importfrommedia.be,+32 2 346 33 55,BUY_REGULAR,795000,2,3,2,0,2,,1,1,HYPER_EQUIPPED,AS_NEW,231,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Wetteren,9230,Immo Zone,immo-zone@omniwebsites.be,+32 9 231 75 92,BUY_REGULAR,155000,2,2,1,0,1,,,,SEMI_EQUIPPED,TO_RENOVATE,76,,40,0,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Flandres,Malines,2800,Copandi Mechelen,storage8026_710@importfrommedia.be,,BUY_REGULAR,349000,2,4,1,1,1,,1,,HYPER_EQUIPPED,JUST_RENOVATED,131,,317,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Modave,4577,Trevi Rasquain,trevi-rasquain@omniwebsites.be,+32 85 25 39 03,BUY_REGULAR,645000,3,4,1,4,4,,3,6,INSTALLED,AS_NEW,220,3500,4385,1,0,1,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,Blankenberge,8370,CENTURY 21 Immo New Cnoc,info@century21immonewcnoc.be,+32 50 62 50 80,BUY_REGULAR,249900,4,2,1,0,2,7,,,,GOOD,140,16,95,0,0,0,0,0,0,0,1,0
+HOUSE,HOUSE,Flandres,Watou,8978,Immo Francois,poperinge@immofrancois.be,+32 57 47 04 75,BUY_REGULAR,169000,2,5,1,0,1,6,1,,,TO_RESTORE,178,220,400,0,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,Oostende,8400,Immo Katrien,info@immokatrien.be,+32 59 79 57 39,BUY_REGULAR,279000,,3,1,0,1,13,,,INSTALLED,,162,,81,1,1,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,ATHUS,6791,Alison immo,alisonimmo@omniwebsites.be,,BUY_REGULAR,300000,3,4,,1,,,,,SEMI_EQUIPPED,TO_RESTORE,138,,1210,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,ANTWERPEN,2018,Werner Immo,wernerimmo@omniwebsites.be,+32 3 303 79 75,BUY_REGULAR,660000,,4,3,0,2,,1,,SEMI_EQUIPPED,TO_RENOVATE,200,,,1,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Marchienne-au-Pont,6030,Immobilière Del Bianco,storage3348_825@importfrommedia.be,+32 71 46 54 26,BUY_REGULAR,130000,2,2,1,1,1,,,,INSTALLED,GOOD,106,,0,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Nivelles,1400,Immobilière Beaufils,info@beaufils.be,+32 67 84 16 60,BUY_REGULAR,450000,2,6,2,0,1,,1,,NOT_INSTALLED,TO_BE_DONE_UP,344,240,350,0,0,0,0,1,0,0,1,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1000,By the Way,storage5286_951@importfrommedia.be,+32 2 648 01 20,BUY_REGULAR,510000,2,2,2,2,2,,,1,USA_HYPER_EQUIPPED,AS_NEW,148,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,,CORBES,30140,TRUST REAL ESTATE Namur,trust@omniwebsites.be,,BUY_REGULAR,1175000,4,11,7,7,8,,,5,INSTALLED,,550,6500,6993,0,0,0,1,1,0,1,1,0
+HOUSE,HOUSE,Wallonie,Sprimont,4140,GROUP SKYIMMO,demande@skyimmo.be,+32 4 250 02 61,BUY_REGULAR,379900,4,4,1,1,2,,,,INSTALLED,AS_NEW,180,367,437,1,0,1,0,0,0,1,1,0
+HOUSE,BUNGALOW,Wallonie,Verlaine,4537,Immobilière Bertrand Huy,xavierbertrand1@omniwebsites.be,+32 85 30 10 03,BUY_REGULAR,279000,4,4,1,0,1,,1,1,SEMI_EQUIPPED,GOOD,110,,937,1,0,0,0,1,0,0,1,0
+HOUSE,VILLA,Flandres,Maldegem,9990,OC vastgoed,200462@secure.fortissimmo.net,+32 9 233 02 00,BUY_REGULAR,795000,4,6,6,0,8,20,1,2,,,546,,583,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1000,City Global,cityglobal@apilead.net,,BUY_REGULAR,279000,2,1,,1,1,4,,,,AS_NEW,70,,,0,1,0,0,0,0,1,0,0
+APARTMENT,FLAT_STUDIO,Bruxelles,BRUXELLES,1000,TREVI - Immobilier Neuf,trevitin@omniwebsites.be,+32 2 340 24 73,BUY_REGULAR,213500,2,0,1,0,1,,,,HYPER_EQUIPPED,,30,,,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Knokke-Heist,8300,IMMAX KNOKKE,info@immax.be,+32 50 62 44 14,BUY_REGULAR,1195000,2,3,3,2,2,4,,,USA_HYPER_EQUIPPED,AS_NEW,140,,,0,0,0,1,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Lede,9340,Albert Smetlede,albertsmetlede@contactme.skarabee.com,+32 80 02 52 37,BUY_REGULAR,399000,,3,,0,,1,,,,GOOD,130,,,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Wallonie,Bierges,1301,TRUST REAL ESTATE SPRL,trust@omniwebsites.be,+32 10 68 01 81,BUY_REGULAR,425000,2,2,1,0,1,,1,,USA_SEMI_EQUIPPED,,92,,,0,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,Zaventem,1930,Immo Liv'it,livit@omniwebsites.be,,BUY_REGULAR,340000,3,3,1,0,1,,1,,SEMI_EQUIPPED,TO_RENOVATE,110,,250,1,0,0,0,1,0,1,1,0
+APARTMENT,APARTMENT,Wallonie,Colfontaine,7340,C.G.I. Commerce,sprlscgiimmo_730@importfrommedia.be,+32 65 56 06 05,BUY_REGULAR,165000,3,2,1,1,2,,1,,INSTALLED,GOOD,78,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Mariakerke,9030,Dewaele-woonvastgoed Gent,gent@dewaele.com,+32 9 234 34 34,BUY_REGULAR,350000,2,3,1,0,2,,,,INSTALLED,TO_BE_DONE_UP,121,,70,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Halle,1501,De Immobiliers,deimmobiliers@contactme.skarabee.com,+32 2 356 00 00,BUY_REGULAR,410000,2,5,2,0,2,1,,,,GOOD,280,,377,0,0,1,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Crisnée,4367,C. Roufosse Affaires Immobilières,roufousse-kfaah9@omniwebsites.be,+32 4 234 21 10,BUY_REGULAR,285000,3,3,1,0,2,,1,1,SEMI_EQUIPPED,GOOD,112,215,490,1,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,Schilde,2970,Heylen Vastgoed Brasschaat,heylenvastgoed@omniwebsites.be,+32 3 555 41 11,BUY_REGULAR,344000,3,3,1,0,,,1,,SEMI_EQUIPPED,TO_RENOVATE,132,,348,1,0,0,0,1,0,0,1,0
+APARTMENT,PENTHOUSE,Bruxelles,Uccle,1180,Upgrade Immo,upgradeimmo@omniwebsites.be,+32 2 673 95 64,BUY_REGULAR,295000,4,2,1,0,1,,,1,SEMI_EQUIPPED,TO_RENOVATE,90,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Wallonie,Waterloo,1410,Aryes Properties s.p.r.l,aryesproperties2_wavre@importfrommedia.be ,+32 10 87 20 00,BUY_REGULAR,429000,,2,1,0,,,,,,,96,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,NEVELE,9850,Infinimo,infinimo@omniwebsites.be,+32 9 383 06 76,BUY_REGULAR,205000,2,3,1,0,,,,,SEMI_EQUIPPED,TO_RENOVATE,124,,98,0,0,0,0,1,0,0,0,0
+APARTMENT,APARTMENT,Bruxelles,Anderlecht,1070,Hestia Immobilier,hestiaim_ganshoren@importfrommedia.be,,BUY_REGULAR,199990,2,2,1,0,1,,,,INSTALLED,AS_NEW,74,,,1,0,0,0,0,0,1,0,0
+HOUSE,VILLA,Bruxelles,Auderghem,1160,TRIOR Woluwe,triorwaterloo_965@importfrommedia.be,+32 2 430 37 37,BUY_REGULAR,620000,4,3,1,0,2,,1,1,INSTALLED,GOOD,157,237,237,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Duffel,2570,Vastgoedplus,vastgoedplus@omniwebsites.be,+32 15 20 09 99,BUY_REGULAR,267000,2,2,1,0,1,,1,,SEMI_EQUIPPED,,88,155,,1,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Wallonie,Beyne-Heusay,4610,Immobilière VANESSE : Oupeye (Vivegnis) - Visé,mobilierevanesse_482@importfrommedia.be,+32 4 240 15 20,BUY_REGULAR,295000,4,3,1,1,2,,1,4,INSTALLED,GOOD,139,762,955,0,0,0,0,0,0,1,1,0
+APARTMENT,GROUND_FLOOR,Flandres,De Haan,8420,Agence Vanbeckevoort,200717@secure.fortissimmo.net,+32 59 80 99 20,BUY_REGULAR,695000,,4,1,0,1,13,1,,,,146,220,,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Bruxelles,Molenbeek-Saint-Jean,1080,TRIOR Jette,triorwaterloo_669@importfrommedia.be,+32 2 430 37 30,BUY_REGULAR,450000,2,7,3,0,4,,,,SEMI_EQUIPPED,GOOD,200,,65,1,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Bernissart Harchies,7321,AX-Immobilier,storage4133_181@importfrommedia.be,+32 65 22 88 32,BUY_REGULAR,182500,3,3,1,1,2,,,2,NOT_INSTALLED,AS_NEW,126,458,523,0,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Westende,8434,ERA La Plage,immoweb@erabelgium.be,+32 59 30 15 13,BUY_REGULAR,750000,3,4,2,0,,,,,,,125,,,1,0,0,1,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Hasselt,3500,ERA Nobis - Hasselt,nobis@era.be,+32 11 35 14 00,BUY_REGULAR,459000,4,3,1,0,,,,,,,162,,916,1,0,1,0,0,0,0,0,0
+HOUSE,VILLA,Flandres,Maldegem,9990,Flanders properties,flandersproperties_knokke@importfrommedia.be,+32 50 60 01 60,BUY_REGULAR,435000,4,4,1,0,2,,1,2,USA_INSTALLED,GOOD,268,,772,0,0,1,0,0,0,1,0,0
+HOUSE,VILLA,Wallonie,Gognies Chaussee,7040,AX-Immobilier,storage4133_181@importfrommedia.be,+32 65 22 88 32,BUY_REGULAR,315000,4,5,1,1,1,,2,3,HYPER_EQUIPPED,GOOD,225,,1390,1,0,1,0,0,0,1,0,0
+HOUSE,TOWN_HOUSE,Flandres,Dilbeek,1700,,,,BUY_REGULAR,564000,2,3,1,1,3,,1,1,HYPER_EQUIPPED,AS_NEW,240,280,380,1,1,1,0,0,0,1,1,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1020,,,+32484281874,BUY_REGULAR,290000,2,2,1,0,1,,1,,INSTALLED,,90,,,1,0,1,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Deinze,9800,Excellent Vastgoed,excellentvastgoed@omniwebsites.be,+32 9 380 09 74,BUY_REGULAR,199000,2,2,1,0,1,,,,INSTALLED,GOOD,78,,,0,0,0,0,1,0,0,0,0
+APARTMENT,APARTMENT,Bruxelles,Schaerbeek,1030,Direct Immo,direct-immo@omniwebsites.be,+32 2 347 10 01,BUY_REGULAR,279000,,2,,1,1,,,,NOT_INSTALLED,GOOD,113,,,0,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Bruxelles,Woluwe-Saint-Lambert,1200,ABITA IMMO,immoabita_woluwe_st_lambert@importfrommedia.be,+32 2 726 89 75,BUY_REGULAR,1190000,2,5,2,2,4,6,1,2,USA_HYPER_EQUIPPED,AS_NEW,276,50,200,1,0,1,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Renaix,9600,Immo AD NV,immo-ad@omniwebsites.be,+32 55 21 48 08,BUY_REGULAR,195000,2,2,1,0,1,,,,SEMI_EQUIPPED,GOOD,185,,140,1,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Wallonie,Walcourt,5650,We Invest Charleroi,storage4563_800@importfrommedia.be,+32 71 15 87 87,BUY_REGULAR,340000,4,4,1,1,2,,1,,INSTALLED,GOOD,266,1188,1447,0,0,0,0,0,0,1,1,1
+HOUSE,HOUSE,Wallonie,Corbion,6838,We Invest Sud-Luxembourg,storage4563_979@importfrommedia.be,+32 63 33 00 69,BUY_REGULAR,185000,3,5,1,2,2,,,,INSTALLED,GOOD,160,,164,1,0,0,0,0,0,1,0,0
+APARTMENT,PENTHOUSE,Bruxelles,Woluwe-Saint-Lambert,1200,Latour et Petit Vente,latouretpetitvente@importfrommedia.be,+32 2 777 19 19,BUY_REGULAR,825000,2,3,2,2,2,,,,USA_HYPER_EQUIPPED,GOOD,230,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,BEVEREN,9120,.be build,info@bebuild.be,+32 3 775 58 00,BUY_REGULAR,335000,3,3,1,0,2,,2,3,SEMI_EQUIPPED,,159,370,760,0,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Bruxelles,Uccle,1180,You Real Estate,storage4663_uccle_55@importfrommedia.be,+32 2 460 83 86,BUY_REGULAR,900000,2,7,2,1,5,,,1,SEMI_EQUIPPED,GOOD,361,,200,0,0,0,0,0,0,1,0,0
+APARTMENT,PENTHOUSE,Flandres,Poperinge,8970,Diksimmo,200306@secure.fortissimmo.net,+32 51 50 11 51,BUY_REGULAR,240000,,1,1,0,1,,,,INSTALLED,AS_NEW,153,,,0,0,0,1,0,0,0,0,0
+HOUSE,HOUSE,Bruxelles,Anderlecht,1070,Woonkantoor,woonkantoor@contactme.skarabee.com,+32 2 532 02 84,BUY_REGULAR,315000,2,5,,0,,1,1,,,GOOD,184,50,120,0,0,0,0,0,0,0,1,0
+HOUSE,HOUSE,Flandres,Affligem,1790,Living Stone Dilbeek,pajota_dilbeek@importfrommedia.be,+32 2 466 05 75,BUY_REGULAR,398000,3,3,1,1,2,,1,3,NOT_INSTALLED,TO_BE_DONE_UP,143,1018,1018,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Moorsel,9310,Immo Lierman,info@immolierman.be,+32 53 89 99 66,BUY_REGULAR,547000,,4,1,1,2,5,,1,,GOOD,240,300,443,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Hoboken,2660,Chase,chasevastgoed@omniwebsites.be,+32 3 740 03 90,BUY_REGULAR,290000,,4,1,0,1,,,,INSTALLED,GOOD,142,46,128,0,0,0,0,1,0,0,1,0
+HOUSE,HOUSE,Wallonie,Leuze-en-Hainaut,7900,Yelo Immo,Z41063@secure.fortissimmo.net,+32 68 33 30 53,BUY_REGULAR,280000,,3,1,0,2,15,1,,INSTALLED,,154,60,190,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Middelkerke,8430,Agence Muyle,201296@secure.fortissimmo.net,+32 59 30 04 76,BUY_REGULAR,130000,,1,1,0,,7,,,,TO_BE_DONE_UP,45,,,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Bruxelles,Uccle,1180,EMILE GARCIN BELGIQUE SPRL,bruxelles@emilegarcin.com,+32 2 201 94 00,BUY_REGULAR,2100000,4,4,3,0,4,,4,2,HYPER_EQUIPPED,GOOD,550,1000,1250,1,0,1,0,1,0,1,1,0
+APARTMENT,APARTMENT,Bruxelles,Anderlecht,1070,Latour et Petit Vente,latouretpetitvente@importfrommedia.be,+32 2 777 19 19,BUY_REGULAR,307000,2,1,1,1,1,,113,113,USA_HYPER_EQUIPPED,AS_NEW,83,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Musson,6750,We Invest Sud-Luxembourg,storage4563_979@importfrommedia.be,+32 63 33 00 69,BUY_REGULAR,285000,3,3,1,1,2,,1,2,INSTALLED,GOOD,141,517,650,0,0,1,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Lier,2500,LISTINGS,storage3079_599@importfrommedia.be,+32 3 284 40 40,BUY_REGULAR,299000,2,2,1,0,1,,,,HYPER_EQUIPPED,AS_NEW,108,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Liege,4020,GROUP SKYIMMO,demande@skyimmo.be,+32 4 250 02 61,BUY_REGULAR,105000,2,2,1,1,1,,,,SEMI_EQUIPPED,GOOD,75,,36,1,0,0,0,0,0,0,0,0
+HOUSE,EXCEPTIONAL_PROPERTY,Flandres,Audenarde,9700,Immo D'Hondt,paralles@omniwebsites.be,,BUY_REGULAR,675000,,4,,0,,,,,SEMI_EQUIPPED,GOOD,,,0,0,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Wallonie,Hannut Thisnes,4280,We Invest Hesbaye,storage4563_301@importfrommedia.be,+32 19 86 06 06,BUY_REGULAR,249000,3,1,1,0,1,,,2,INSTALLED,GOOD,99,465,573,1,0,1,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Zeebrugge,8380,Key Immo,storage9301_340@importfrommedia.be,+32 50 70 81 74,BUY_REGULAR,385000,,2,1,0,1,,,,,AS_NEW,87,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Kortrijk,8500,Vastgoed Norman,vastgoednorman@contactme.skarabee.com,+32 56 25 26 19,BUY_REGULAR,159500,2,4,,0,1,1,,,,GOOD,113,,100,0,0,0,0,0,0,0,0,0
+HOUSE,MANSION,Flandres,Borgerhout,2140,Heylen Vastgoed Antwerpen 't Zand,heylenvastgoed@omniwebsites.be,+32 3 260 46 66,BUY_REGULAR,399000,2,6,2,0,3,,,,INSTALLED,TO_RENOVATE,287,,146,1,0,0,0,1,0,0,1,0
+APARTMENT,APARTMENT,Flandres,ANTWERPEN 2000,2000,Coprimmo Immobiliën,coprimmo@omniwebsites.be,+32 3 449 49 77,BUY_REGULAR,745000,,2,1,1,2,,,,HYPER_EQUIPPED,GOOD,180,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Anvers,2050,Immobib,immobib_antwerpen@importfrommedia.be,+32 3 230 59 39,LIFE_ANNUITY,,,2,1,1,1,,,,INSTALLED,GOOD,94,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Gand,9050,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,567500,3,3,1,1,2,,,,USA_HYPER_EQUIPPED,AS_NEW,144,200,355,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Grammont,9500,Cornelis & Partners,cornelis@importfrommedia.be,,BUY_REGULAR,599000,3,3,1,0,2,,,,USA_HYPER_EQUIPPED,AS_NEW,225,,1685,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles ville,1000,Dewaele Brussels (Tour & Taxis),brussel@dewaele.com,+32 2 223 23 23,BUY_REGULAR,412000,4,2,2,0,1,,,,USA_INSTALLED,GOOD,91,,,0,0,0,1,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Knokke-Zoute,8300,Knokke Real Estate,200358@secure.fortissimmo.net,+32 50 64 10 10,BUY_REGULAR,7650000,4,7,6,0,8,18,1,4,HYPER_EQUIPPED,,578,,2031,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Lier,2500,VB Partners Immobiliën,201383@secure.fortissimmo.net,+32 3 337 50 70,BUY_REGULAR,349000,,2,1,0,1,10,,,,,126,,1066,0,1,0,0,0,0,0,0,0
+HOUSE,HOUSE,,La Nucia,03530,Immo De Ras,immowebimmoderas@importfrommedia.be,+32 53 60 65 60,BUY_REGULAR,795000,4,3,3,3,3,,,2,INSTALLED,AS_NEW,280,40,480,1,0,0,0,0,0,1,1,1
+HOUSE,HOUSE,Bruxelles,Molenbeek-Saint-Jean,1080,Perception Immobilière,percepti_anderlecht@importfrommedia.be,,BUY_REGULAR,340000,2,6,1,0,2,,,,,TO_BE_DONE_UP,185,,0,0,0,1,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Zellik,1731,Immo David,immodavid_zellik@importfrommedia.be,+32 2 305 51 33,BUY_REGULAR,469000,3,3,1,0,2,,1,2,HYPER_EQUIPPED,AS_NEW,176,,775,0,0,1,0,0,0,1,0,0
+APARTMENT,PENTHOUSE,Bruxelles,Woluwe-Saint-Pierre,1150,BARNES BRUSSELS,brussels@apilead.net,+32 2 880 15 15,BUY_REGULAR,1050000,3,3,2,0,1,,1,1,USA_HYPER_EQUIPPED,AS_NEW,180,,,1,1,1,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Heusden-Zolder,3550,ERA Nobis - Zonhoven,nobis@era.be,+32 11 35 14 00,BUY_REGULAR,215000,4,3,1,0,,,1,,,,127,,735,1,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Brugge,8000,Centro | Nieuwbouw,info@centro.be,,BUY_REGULAR,283840,,2,1,0,2,8,,2,,,90,,,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Tessenderlo,3980,Immo Tessenderlo,immodiest@omniwebsites.be,+32 13 31 25 22,BUY_REGULAR,259000,4,3,1,0,1,,1,,SEMI_EQUIPPED,TO_RENOVATE,195,,878,0,0,0,0,1,0,0,1,0
+APARTMENT,APARTMENT,Wallonie,Mettet,5640,Be Home Partners Braine l’Alleud-Genappe-Nivelles,behomepr_nivelles@importfrommedia.be,+32 67 84 12 84,BUY_REGULAR,295000,3,2,1,0,1,,,2,USA_HYPER_EQUIPPED,GOOD,85,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Amblève,4770,HOME'S IMMO,storage7345_304@importfrommedia.be,+32 494 60 56 82,BUY_REGULAR,185900,3,3,2,0,,,,4,INSTALLED,GOOD,209,680,780,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Wallonie,Louvain-La-Neuve,1348,COURBEVOIE,reimmo@omniwebsites.be,+32 10 86 10 75,BUY_REGULAR,350000,,2,1,0,1,,,,USA_HYPER_EQUIPPED,,84,,,1,0,0,0,1,0,0,0,0
+APARTMENT,APARTMENT,Flandres,ANTWERPEN,2018,Immovasta,immovasta@omniwebsites.be,+32 3 289 70 30,BUY_REGULAR,159000,2,1,1,0,1,,,,SEMI_EQUIPPED,GOOD,37,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,REBECQ,1430,CENTURY 21 Excellent,century21excellent@omniwebsites.be,+32 2 355 21 21,BUY_REGULAR,175000,2,4,1,0,,,,,NOT_INSTALLED,TO_RENOVATE,,,0,1,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Wallonie,FLÉMALLE-HAUTE,4400,Trevi Rasquain,trevi-rasquain@omniwebsites.be,+32 85 25 39 03,BUY_REGULAR,115000,2,2,,1,1,,,,SEMI_EQUIPPED,TO_BE_DONE_UP,90,,140,1,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Wallonie,Assesse,5330,Les Viviers Properties,info.bw@omniwebsites.be,+32 10 24 24 22,BUY_REGULAR,420000,4,4,2,0,,,,,INSTALLED,,150,,1069,0,0,0,0,1,0,0,0,0
+APARTMENT,TRIPLEX,Bruxelles,Ixelles,1050,Propinvest SA, info@vdbcm.net,+32 455 14 26 26,BUY_REGULAR,325000,,3,1,0,1,,,,,TO_BE_DONE_UP,150,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Rendeux-Bas,6987,We Invest Marche,storage4563_158@importfrommedia.be,+32 84 37 77 39,BUY_REGULAR,325000,4,5,2,2,2,,,4,HYPER_EQUIPPED,GOOD,223,300,664,1,0,1,0,0,0,1,1,0
+APARTMENT,PENTHOUSE,Flandres,Knokke-Heist,8300,Cambier - De Nil,cambierdenil@importfrommedia.be,+32 50 60 10 20,BUY_REGULAR,1895000,2,3,3,3,2,4,1,2,HYPER_EQUIPPED,AS_NEW,135,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Ninove,9400,Locals Vastgoed,storage3140_652@importfrommedia.be,+32 54 23 53 83,BUY_REGULAR,395000,4,3,1,1,2,,1,2,HYPER_EQUIPPED,,228,,740,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Malines,2800,Hartemberg Vastgoed,hartemberg@omniwebsites.be,,BUY_REGULAR,865000,2,5,2,0,3,,1,,INSTALLED,,325,29,148,1,0,0,0,1,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Deinze,9800,Landbergh,199809@secure.fortissimmo.net,+32 9 225 25 24,BUY_REGULAR,340000,,2,1,0,1,9,,,INSTALLED,GOOD,97,,,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Wallonie,Huy,4500,Immobilière Bertrand Nandrin,xavierbertrand2@omniwebsites.be,+32 85 31 31 15,BUY_REGULAR,299000,,3,1,0,,,1,,INSTALLED,GOOD,157,,,1,0,0,0,1,0,1,0,0
+HOUSE,TOWN_HOUSE,Flandres,Izegem,8870,Immo Francois,contact@immofrancois.be,+32 51 47 48 49,BUY_REGULAR,299000,,4,1,0,3,5,,1,,GOOD,345,,302,1,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Bachte-Maria-Leerne,9800,Landbergh,199809@secure.fortissimmo.net,+32 9 225 25 24,BUY_REGULAR,379000,,2,1,0,1,10,,,INSTALLED,GOOD,104,,,0,0,1,0,0,0,1,0,0
+APARTMENT,APARTMENT,Wallonie,Sprimont,4141,,,,BUY_REGULAR,275000,3,2,,1,,6,1,2,INSTALLED,AS_NEW,115,,,1,0,0,0,0,0,1,0,0
+HOUSE,VILLA,Flandres,Nieuwpoort,8620,Century 21 Sea Port,201047@secure.fortissimmo.net,+32 58 23 23 23,BUY_REGULAR,1695000,,3,2,0,1,10,1,,,AS_NEW,174,,766,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Mortsel,2640,Habicom Vastgoed,habicom@omniwebsites.be,+32 3 449 42 41,BUY_REGULAR,249000,,3,1,0,1,,1,,SEMI_EQUIPPED,TO_BE_DONE_UP,95,,,1,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Wallonie,Arlon,6700,Immo By Julie,storage10349_904@importfrommedia.be,,BUY_REGULAR,265000,4,2,1,0,2,,1,3,INSTALLED,JUST_RENOVATED,109,,250,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Maffle,7810,Yelo Immo,Z41063@secure.fortissimmo.net,+32 68 33 30 53,BUY_REGULAR,450000,,6,1,0,2,16,1,,,,300,,0,0,0,1,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Bredene,8450,IMMO WOON !,immowoon@omniwebsites.be,+32 50 73 33 37,BUY_REGULAR,199000,3,2,1,0,1,,1,,INSTALLED,GOOD,81,,,0,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Wallonie,Wavre,1300,TRUST REAL ESTATE SPRL,trust@omniwebsites.be,+32 10 68 01 81,BUY_REGULAR,425000,2,2,1,0,1,,1,,USA_SEMI_EQUIPPED,,92,,,0,0,0,0,1,0,1,1,0
+HOUSE,APARTMENT_BLOCK,Bruxelles,Auderghem,1160,EuroHouse sa,eurohouse_auderghem@importfrommedia.be,+32 2 672 05 55,BUY_REGULAR,795000,2,4,2,0,3,,2,2,SEMI_EQUIPPED,TO_BE_DONE_UP,220,175,300,1,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Jabbeke,8490,ERA Move,immoweb@erabelgium.be,+32 50 96 19 60,BUY_REGULAR,399000,2,2,1,0,,,,,,,170,,547,0,0,0,0,0,0,1,0,0
+APARTMENT,FLAT_STUDIO,Bruxelles,Haren,1130,O'Ville Vastgoed bvba,201182@secure.fortissimmo.net,,BUY_REGULAR,185000,,0,1,0,,2,,,,GOOD,37,,,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Courcelles Trazegnies,6183,Pacimmo,pacimmo_832@importfrommedia.be,+32 71 32 53 25,BUY_REGULAR,199900,3,3,2,1,2,,,,NOT_INSTALLED,TO_RENOVATE,190,306,479,1,0,1,0,0,0,1,1,0
+APARTMENT,PENTHOUSE,Flandres,Anvers,2000,CC Immo,ccimmo@omniwebsites.be,+32 3 257 55 55,BUY_REGULAR,695000,2,3,2,0,1,,,,,AS_NEW,158,,,1,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Wallonie,Seraing,4100,Bureau Godin – Liège,bureau-godin_grivegnee@importfrommedia.be,+32 4 222 90 09,BUY_REGULAR,284000,2,5,3,3,3,,1,,INSTALLED,TO_BE_DONE_UP,270,,145,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,LEVAL-TRAHEGNIES,7134,CONNEXION IMMO,connexionimmo@omniwebsites.be,+32 65 98 17 77,BUY_REGULAR,95000,2,2,1,0,,,,,,TO_RENOVATE,91,,0,1,0,1,0,1,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Deinze,9800,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,395000,2,2,1,0,1,,,101,HYPER_EQUIPPED,AS_NEW,99,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Audenarde,9700,Cornelis & Partners Rhodeland,storage5289_505@importfrommedia.be,,BUY_REGULAR,199000,3,3,1,0,,,1,,,,,,1415,1,0,0,0,0,0,1,0,0
+APARTMENT,FLAT_STUDIO,Bruxelles,Ixelles,1050,Clavis Immo,clavisimmo@omniwebsites.be,+32 2 670 19 70,BUY_REGULAR,205000,2,0,1,0,1,,,,,,36,,,1,0,0,0,1,0,0,0,0
+HOUSE,MIXED_USE_BUILDING,Wallonie,Chastre,1450,,,,BUY_REGULAR,580000,4,5,1,2,3,,5,4,USA_HYPER_EQUIPPED,JUST_RENOVATED,330,600,731,1,1,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Koksijde,8670,Immo La Terrasse,immolaterrasse_257@importfrommedia.be,+32 58 51 83 83,BUY_REGULAR,245000,2,2,1,0,1,,,,,GOOD,65,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Ixelles,1050,Property Lab,storage5237_500@importfrommedia.be,+32 2 537 47 38,BUY_REGULAR,295000,2,1,1,1,1,,,,USA_HYPER_EQUIPPED,AS_NEW,96,,,0,0,0,0,0,0,0,0,0
+APARTMENT,PENTHOUSE,Wallonie,Vaux-Sur-Sûre,6640,Vos Agences Ardenne,ardenne@vosagences.be,+32 61 55 09 00,BUY_REGULAR,379000,,3,,2,1,4,,,,GOOD,159,,,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Knokke-Heist,8300,Agence Het Zoute nv,storage7042_961@importfrommedia.be,+32 50 60 33 33,BUY_REGULAR,595000,2,2,2,2,1,,,,USA_HYPER_EQUIPPED,GOOD,94,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Gand,9051,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,400000,4,3,2,0,2,,1,1,USA_HYPER_EQUIPPED,AS_NEW,111,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Grammont,9500,Immo De Ras,immowebimmoderas@importfrommedia.be,+32 53 60 65 60,BUY_REGULAR,499000,3,3,1,0,2,,,2,HYPER_EQUIPPED,AS_NEW,240,,580,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Crisnée,4367,We Invest Hesbaye,storage4563_301@importfrommedia.be,+32 19 86 06 06,BUY_REGULAR,165000,2,2,1,1,1,,1,,NOT_INSTALLED,GOOD,95,301,436,1,0,1,0,0,0,0,1,0
+APARTMENT,GROUND_FLOOR,Bruxelles,Ixelles,1050,Caron Real Estate,storage8164_358@importfrommedia.be,,BUY_REGULAR,720000,3,3,2,1,2,,1,,HYPER_EQUIPPED,TO_BE_DONE_UP,208,650,,1,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Bruxelles,Berchem-Sainte-Agathe,1082,UNIK vastgoed,unikvastgoed@contactme.skarabee.com,+32 2 569 74 14,BUY_REGULAR,429000,2,3,,0,,1,1,1,,TO_BE_DONE_UP,260,,272,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Erpent,5101,TRUST REAL ESTATE Namur,trust@omniwebsites.be,,BUY_REGULAR,415000,4,4,1,1,2,,5,2,INSTALLED,,192,964,964,1,0,1,0,1,0,1,1,0
+HOUSE,VILLA,Flandres,Drongen,9031,Crevits,200395@secure.fortissimmo.net,+32 9 222 27 76,BUY_REGULAR,645000,,5,2,0,2,17,1,,,,440,,1970,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1000,CENTURY 21 Capitale,capitalecenter@importfrommedia.be,+32 2 611 59 55,BUY_REGULAR,680000,3,3,2,2,2,,1,1,INSTALLED,TO_BE_DONE_UP,202,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles ville,1000,Dewaele Brussels South,brussel-zuid@dewaele.com,+32 2 344 44 22,BUY_REGULAR,399000,4,3,1,0,1,,,29,HYPER_EQUIPPED,AS_NEW,125,,,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Bruxelles,Neder-over-Heembeek,1120,Residency,residenc_laeken@importfrommedia.be,+32 2 268 58 00,BUY_REGULAR,409000,2,4,1,1,2,,,,INSTALLED,TO_BE_DONE_UP,180,120,260,1,0,1,0,0,0,1,1,0
+HOUSE,HOUSE,Wallonie,Péruwelz,7600,Primmo Péruwelz,elodie@primmo.be,+32 69 22 78 11,BUY_REGULAR,55000,2,2,1,0,,,,,INSTALLED,,115,,95,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Charleroi,6000,CENTURY 21 Maison Blanche,c21maisonblanche@omniwebsites.be,+32 67 87 45 00,BUY_REGULAR,249000,2,3,1,0,2,,,1,HYPER_EQUIPPED,AS_NEW,158,,350,0,0,0,0,1,0,0,0,0
+APARTMENT,APARTMENT,Flandres,VILVOORDE,1800,Matexi Vlaams-Brabant,immoweb@immo-catch.matexi.be,+32 2 270 07 45,BUY_REGULAR,370527,,3,1,0,,,,,,,125,,,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Wallonie,La Louvière,7100,Arihome,storage10541_bw_411@importfrommedia.be,,BUY_REGULAR,89000,3,1,1,1,1,,,1,INSTALLED,TO_RENOVATE,65,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Oostende,8400,Immo Blauw,Z48280@secure.fortissimmo.net,,BUY_REGULAR,149000,,1,1,0,1,5,,,,,60,,,0,0,0,0,0,0,0,0,0
+HOUSE,VILLA,Wallonie,La Hulpe,1310,Immo IDS S.P.R.L.,natacha.michiels@immo-ids.be,+32 2 359 90 90,BUY_REGULAR,925000,4,4,2,0,3,1,1,2,,GOOD,200,2200,2200,0,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Wallonie,Liège,4020,Welcome at Home,partnerimmo_167@importfrommedia.be,+32 4 370 20 22,BUY_REGULAR,185000,2,2,1,0,1,,,,INSTALLED,AS_NEW,81,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1000,BARNES BRUSSELS,brussels@apilead.net,+32 2 880 15 15,BUY_REGULAR,600000,2,3,2,0,3,8,1,,INSTALLED,GOOD,145,,,1,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Wallonie,Liege,4020,Immobilière de la Bruyere Sprl,immobilieredelabruyere_liege@importfrommedia.be,+32 4 252 44 32,BUY_REGULAR,120000,,2,1,0,1,,,,NOT_INSTALLED,,61,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Oostakker,9041,Axel Lenaerts makelaars Gent,axellenaertsgent@omniwebsites.be,+32 9 245 24 24,BUY_REGULAR,345000,2,2,1,0,1,,,,INSTALLED,,94,,,0,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Wallonie,Antoing,7640,Henro Immo,henroimmo@omniwebsites.be,+32 69 23 24 00,BUY_REGULAR,155000,3,2,,1,1,,,,,,120,,111,1,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Flandres,HAACHT,3150,Immo Vercammen,info@immovercammen.be,+32 15 75 54 44,BUY_REGULAR,525000,2,4,2,0,4,,1,,SEMI_EQUIPPED,GOOD,325,,248,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Destelbergen,9070,Axel Lenaerts makelaars Gent,axellenaertsgent@omniwebsites.be,+32 9 245 24 24,BUY_REGULAR,405000,3,3,1,0,1,,,,INSTALLED,,122,,,0,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Flandres,Laarne,9270,Immo Home bvba,immo-home@contactme.skarabee.com,,BUY_REGULAR,599000,4,3,1,0,2,1,2,4,,GOOD,197,,977,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Mechelen,2800,ERA Vijfhoek,immoweb@erabelgium.be,+32 15 21 98 88,BUY_REGULAR,325000,2,2,1,0,,,1,,,,155,,99,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Heverlee,3001,We Invest Leuven,storage4563_760@importfrommedia.be,+32 16 60 60 31,BUY_REGULAR,549000,3,4,1,0,,,,,INSTALLED,GOOD,191,,223,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Gent,9000,TOP Vastgoed,info@topvastgoed.be,,BUY_REGULAR,269900,,2,1,0,1,,,1,INSTALLED,TO_BE_DONE_UP,86,,,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Bredene,8450,Agence Eeckhout,eeckhout@contactme.skarabee.com,+32 59 70 70 10,BUY_REGULAR,319000,2,3,1,0,2,1,,,,GOOD,126,,0,0,0,0,0,0,0,1,0,0
+HOUSE,VILLA,Flandres,Zoersel,2980,Heylen Vastgoed Oostmalle,heylenvastgoed@omniwebsites.be,+32 3 689 27 99,BUY_REGULAR,825000,4,4,,0,2,,,,,GOOD,175,2000,2400,0,0,0,0,1,0,0,1,0
+HOUSE,HOUSE,Wallonie,Pont-à-Celles,6230,Pacimmo,pacimmo_832@importfrommedia.be,+32 71 32 53 25,BUY_REGULAR,199900,3,3,2,0,2,,2,2,NOT_INSTALLED,GOOD,200,,385,1,0,1,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Gingelom,3890,De woonmakers,dewoonmakers@omniwebsites.be,+32 11 98 88 98,BUY_REGULAR,425000,4,4,2,0,,,1,,INSTALLED,,271,,998,1,0,1,0,1,0,0,0,0
+HOUSE,HOUSE,Wallonie,Saint-Leger,6747,Juliet Immo Belgique,storage6775_817@importfrommedia.be,,BUY_REGULAR,290000,4,3,1,1,1,,1,3,NOT_INSTALLED,TO_RENOVATE,147,900,1072,1,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Deinze,9800,Infinimo,infinimo@omniwebsites.be,+32 9 383 06 76,BUY_REGULAR,439000,2,3,1,0,2,,1,,INSTALLED,,299,298,205,0,0,0,0,1,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Knokke-Heist,8300,Immo NANO,199920@secure.fortissimmo.net,+32 50 60 60 78,BUY_REGULAR,640000,,2,1,1,2,17,,,,TO_RENOVATE,109,,,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Gand,9050,Axel Lenaerts makelaars Gent,axellenaertsgent@omniwebsites.be,+32 9 245 24 24,BUY_REGULAR,561000,2,3,,0,,,,,INSTALLED,,122,220,,0,0,0,0,1,0,1,1,0
+HOUSE,HOUSE,Wallonie,Ans,4430,,,,BUY_REGULAR,299000,3,4,1,0,2,4,1,1,SEMI_EQUIPPED,GOOD,192,270,365,1,0,1,0,0,0,1,1,0
+APARTMENT,APARTMENT,Bruxelles,Koekelberg,1081,Contigo Ixelles,contigo@omniwebsites.be,+32 2 675 02 07,BUY_REGULAR,269000,2,2,1,0,1,,1,,INSTALLED,AS_NEW,82,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Oostende,8400,Vastgoed Naessens,vastgoednaessens@contactme.skarabee.com,+32 59 50 64 27,BUY_REGULAR,520000,,2,1,0,1,1,,,,GOOD,87,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Marchin,4570,Immobilière Bertrand Huy,xavierbertrand1@omniwebsites.be,+32 85 30 10 03,BUY_REGULAR,69000,4,2,,1,1,,,1,SEMI_EQUIPPED,TO_RENOVATE,112,2100,2280,0,0,0,0,1,0,0,1,0
+HOUSE,HOUSE,Wallonie,HALANZY,6792,Alison immo,alisonimmo@omniwebsites.be,,BUY_REGULAR,285000,4,3,1,1,2,,1,2,,TO_BE_DONE_UP,147,,1040,1,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Veurne,8630,Bricx,info@bricx.be,+32 50 81 67 67,BUY_REGULAR,480000,4,4,2,0,3,1,3,1,,GOOD,311,,537,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Jeneffe,5370,Stephanie.immo,stephaniebarbara@omniwebsites.be,,BUY_REGULAR,239000,3,4,1,1,2,,1,,HYPER_EQUIPPED,GOOD,,1047,1047,1,0,0,0,1,0,0,1,0
+APARTMENT,DUPLEX,Bruxelles,Woluwe-Saint-Pierre,1150,Stéphane Schweitzer,storage5894_53@importfrommedia.be,,BUY_REGULAR,849000,2,4,2,2,2,,,,USA_HYPER_EQUIPPED,AS_NEW,255,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Middelkerke,8430,Groep Caenen Middelkerke,19992799614@secure.fortissimmo.net,+32 59 30 50 50,BUY_REGULAR,170000,,2,1,0,1,9,,,,TO_RENOVATE,69,,,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Bruxelles,Uccle,1180,Immo Bolle sprl,immoboll_auderghem@importfrommedia.be,+32 2 660 00 64,BUY_REGULAR,275000,3,2,1,0,1,,1,,,TO_BE_DONE_UP,77,,,1,0,0,0,0,0,1,0,0
+HOUSE,VILLA,Wallonie,Frasnes-lez-Gosselies,6210,Cap Sud Nivelles,capsud-nivelles2@importfrommedia.be,+32 67 79 44 44,BUY_REGULAR,440000,4,4,1,6,1,,2,,,TO_BE_DONE_UP,197,1644,2026,1,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Sint-Michiels,8200,Immo Francois,contact@immofrancois.be,+32 50 32 34 34,BUY_REGULAR,349000,3,3,1,0,2,4,1,1,,GOOD,140,,398,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Knokke-Heist,8300,Agence Het Zoute nv,storage7042_961@importfrommedia.be,+32 50 60 33 33,BUY_REGULAR,1095000,2,3,2,2,1,,,,USA_HYPER_EQUIPPED,GOOD,122,,,1,0,0,1,0,0,1,0,0
+HOUSE,VILLA,Wallonie,Hannut,4280,Wafina Sprl,john@wafina.be,+32 19 32 29 26,BUY_REGULAR,489000,4,4,1,0,2,,,,INSTALLED,TO_BE_DONE_UP,,1,1548,1,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Wallonie,Glons,4690,WAUCOMONT srl : Visé – Barchon,info@waucomont.be,+32 4 287 32 82,BUY_REGULAR,265000,4,4,1,1,2,,1,,INSTALLED,,200,,860,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Gent Sint-Amandsberg,9040,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,280000,3,2,1,0,1,,,,,TO_BE_DONE_UP,114,,,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Laeken,1020,Urban Concept sprl,urbancon_laeken@importfrommedia.be,+32 2 262 44 44,BUY_REGULAR,285000,3,3,1,0,1,,,,INSTALLED,AS_NEW,105,,,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Uccle,1180,Immobilière Hendrix – Genval,hendrix_lasne@importfrommedia.be,+32 10 23 87 00,BUY_REGULAR,450000,,2,2,0,2,,,,USA_INSTALLED,AS_NEW,125,,,0,0,0,0,0,0,1,0,0
+HOUSE,VILLA,Flandres,Knokke-Zoute,8300,Agence Schmitz,philippe@agenceschmitz.be,+32 50 62 11 20,BUY_REGULAR,5850000,,6,5,0,,7,,,,JUST_RENOVATED,289,,988,0,0,0,0,0,0,1,1,1
+HOUSE,HOUSE,Flandres,Sint-Amandsberg,9040,I-MOOV,imoov@contactme.skarabee.com,+32 9 225 50 50,BUY_REGULAR,299000,2,3,1,0,,1,,,,TO_BE_DONE_UP,94,,101,0,0,0,0,0,0,0,0,0
+APARTMENT,GROUND_FLOOR,Flandres,Kortenberg,3070,RH Property,eurodomu_bruxelles@importfrommedia.be,+32 2 662 04 92,BUY_REGULAR,339000,2,3,1,0,1,,,2,HYPER_EQUIPPED,TO_RENOVATE,126,100,,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Wallonie,Court-St.-Etienne,1490,By The Way Waterloo,storage5286_601@importfrommedia.be,,BUY_REGULAR,360000,2,2,1,1,1,,,1,USA_INSTALLED,AS_NEW,92,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,AUVELAIS,5060,Home Expert Immo,homeexpertimmo@omniwebsites.be,+32 81 46 08 89,BUY_REGULAR,380000,4,3,,1,2,,1,5,USA_INSTALLED,,202,,602,0,0,1,0,1,0,1,1,0
+APARTMENT,PENTHOUSE,Bruxelles,Sint-Gillis,1060,Allur,allur_itterbeek@importfrommedia.be,+32 2 486 26 26,BUY_REGULAR,247000,2,1,1,0,1,,,,,TO_BE_DONE_UP,40,,,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Kortessem,3720,Era Nobis - Herk-de-Stad,nobis@era.be,+32 11 35 14 00,BUY_REGULAR,280000,4,2,1,0,,,,,HYPER_EQUIPPED,GOOD,92,,,1,0,1,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Pittem,8740,Vastgoed Zebra,201422@secure.fortissimmo.net,+32 51 97 09 90,BUY_REGULAR,249000,,3,1,0,1,14,,,INSTALLED,,171,,135,1,0,1,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Deinze,9800,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,420000,2,2,1,0,1,,,,HYPER_EQUIPPED,AS_NEW,82,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Affligem,1790,Accenta,immoacce_affligem@importfrommedia.be,+32 53 41 57 92,BUY_REGULAR,295000,3,3,1,0,2,,1,3,NOT_INSTALLED,TO_RENOVATE,185,100,354,1,0,0,0,0,0,1,1,0
+HOUSE,EXCEPTIONAL_PROPERTY,Flandres,Antwerp,2000,,,,BUY_REGULAR,1370000,,5,3,0,2,,,,USA_INSTALLED,GOOD,420,70,235,1,1,1,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,MOORSELE,8560,CENTURY 21 Via Plus,c21aivkortrijk@omniwebsites.be,+32 56 24 38 12,BUY_REGULAR,270000,2,3,1,0,2,,,1,,JUST_RENOVATED,158,,301,0,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Flandres,Beveren,9120,Century 21 Locus,storage4628_444@importfrommedia.be,,BUY_REGULAR,415000,2,3,1,0,2,,1,,NOT_INSTALLED,AS_NEW,235,145,254,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Gent,9000,I-MOOV,imoov@contactme.skarabee.com,+32 9 225 50 50,BUY_REGULAR,315000,4,4,1,0,1,1,,,,GOOD,130,20,92,1,0,0,0,0,0,0,1,0
+HOUSE,HOUSE,Flandres,DILBEEK,1700,Immo Roelands,immoroelands@omniwebsites.be,+32 2 361 30 01,BUY_REGULAR,449000,3,3,1,0,,,,,SEMI_EQUIPPED,GOOD,200,,777,1,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Gedinne,5575,Wellimmo sprl,storage3337_722@importfrommedia.be,,BUY_REGULAR,65000,3,2,1,0,1,,,,NOT_INSTALLED,TO_RESTORE,120,60,230,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Wallonie,Oupeye,4680,We Invest Liège,storage4563_506@importfrommedia.be,+32 4 277 00 07,BUY_REGULAR,849000,4,4,1,2,5,,2,5,,GOOD,456,1987,2400,1,0,0,0,0,0,1,1,0
+APARTMENT,KOT,Bruxelles,Bruxelles ville,1000,Homerun Real Estate,storage7216_879@importfrommedia.be,,BUY_REGULAR,135000,,1,1,0,1,,,,USA_HYPER_EQUIPPED,AS_NEW,18,,,0,0,0,1,0,0,0,0,0
+APARTMENT,APARTMENT,Wallonie,Waremme,4300,Trevi Rasquain,trevi-rasquain@omniwebsites.be,+32 85 25 39 03,BUY_REGULAR,89500,3,1,1,0,1,,,,NOT_INSTALLED,GOOD,45,,,1,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Wallonie,Liege,4000,GROUP SKYIMMO,demande@skyimmo.be,+32 4 250 02 61,BUY_REGULAR,184500,2,4,1,1,1,,,1,,TO_BE_DONE_UP,100,30,130,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Brugge,8000,ISTOIR,Z10174@secure.fortissimmo.net,+32 9 240 80 10,BUY_REGULAR,985000,,2,2,0,2,8,,,,AS_NEW,,5000,,0,0,0,0,0,0,1,1,0
+APARTMENT,PENTHOUSE,Bruxelles,Sint-Lambrechts-Woluwe,1200,So Estates Brussels,storage5509_738@importfrommedia.be,+32 2 512 20 22,BUY_REGULAR,249000,2,1,1,1,1,,,1,HYPER_EQUIPPED,GOOD,46,,,0,0,0,1,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Uccle,1180,New Deal Properties,newdealp_bruxelles@importfrommedia.be,,BUY_REGULAR,320000,,1,1,1,1,,,1,HYPER_EQUIPPED,AS_NEW,84,,,1,0,0,1,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Geer Lens-Saint-Servais,4250,We Invest Hesbaye,storage4563_301@importfrommedia.be,+32 19 86 06 06,BUY_REGULAR,215000,4,4,1,0,2,,,2,USA_SEMI_EQUIPPED,GOOD,133,638,744,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Sint-Gillis-Waas,9170,ERA Wonen Sint-Niklaas,immoweb@erabelgium.be,+32 3 296 37 69,BUY_REGULAR,289000,3,2,1,0,,,1,,INSTALLED,,126,,243,1,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Ellezelles,7890,CENTURY 21 Excellent,century21excellent@omniwebsites.be,+32 2 355 21 21,BUY_REGULAR,350000,,3,1,0,1,,1,,SEMI_EQUIPPED,TO_RENOVATE,,,1988,1,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Flandres,Lokeren,9160,Woonhoek Vastgoed,woonhoek@contactme.skarabee.com,+32 9 310 77 07,BUY_REGULAR,185000,2,2,,0,,1,,,,TO_RENOVATE,130,,152,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Eeklo,9900,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,250000,3,4,2,1,2,,2,4,USA_INSTALLED,TO_RENOVATE,195,380,689,1,0,1,0,0,0,1,1,0
+APARTMENT,APARTMENT,Bruxelles,Ganshoren,1083,Hestia Immobilier,hestiaim_ganshoren@importfrommedia.be,,BUY_REGULAR,229990,2,2,1,1,1,,1,,HYPER_EQUIPPED,JUST_RENOVATED,81,300,,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Bruxelles,SINT-JANS-MOLENBEEK,1080,Heritage Vastgoed,heritage@omniwebsites.be,+32 9 227 08 90,BUY_REGULAR,219000,,2,1,0,,,,,,,66,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Puurs-Sint-Amands,2890,Julimmo,storage7258_776@importfrommedia.be,+32 3 303 39 36,BUY_REGULAR,324000,2,2,1,0,1,,1,1,HYPER_EQUIPPED,GOOD,87,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Aalter,9880,Durabrik Bouwbedrijven NV,Z48191@secure.fortissimmo.net,+32 800 62 732,BUY_REGULAR,409000,,3,1,0,,,,,,,129,,234,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Bruxelles,Anderlecht,1070,Prestige Consultor Immobilier,prestigeconsultor_anderlecht@importfrommedia.be,,BUY_REGULAR,169000,2,1,1,0,1,,,,HYPER_EQUIPPED,GOOD,70,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Colfontaine Wasmes,7340,AX-Immobilier,storage4133_181@importfrommedia.be,+32 65 22 88 32,BUY_REGULAR,225000,2,4,2,4,3,,,,USA_INSTALLED,JUST_RENOVATED,187,25,244,1,0,0,0,0,0,1,1,0
+APARTMENT,PENTHOUSE,Flandres,Machelen,1830,Homixx Vastgoed,storage3842_baal_249@importfrommedia.be,+32 16 84 96 84,BUY_REGULAR,306000,,2,1,0,,,2,2,,AS_NEW,,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Oud-Heverlee,3050,We Invest Leuven,storage4563_760@importfrommedia.be,+32 16 60 60 31,BUY_REGULAR,685000,3,3,2,0,2,,,,USA_HYPER_EQUIPPED,AS_NEW,190,,481,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,AUDERGHEM,1160,Hermanns Real Estate,info@ahre.be,+32 2 315 45 29,BUY_REGULAR,275000,2,1,1,0,1,6,,,SEMI_EQUIPPED,GOOD,74,,,1,0,0,0,0,0,0,0,0
+APARTMENT,DUPLEX,Wallonie,Braine-l'Alleud,1420,ERA Cedimmo – Braine-L’Alleud,Immoweb@erabelgium.be,+32 2 385 02 65,BUY_REGULAR,225000,2,2,2,0,,,,,,,76,,,1,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Seraing,4100,Immobilière VANESSE : Oupeye (Vivegnis) - Visé,mobilierevanesse_482@importfrommedia.be,+32 4 240 15 20,BUY_REGULAR,89000,2,1,1,1,1,,,,NOT_INSTALLED,TO_BE_DONE_UP,64,,51,1,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Middelkerke,8430,Immo Francois,contact@immofrancois.be,+32 59 46 04 60,BUY_REGULAR,395000,,3,1,1,2,4,,,,GOOD,129,,,1,0,0,0,1,0,0,0,0
+HOUSE,APARTMENT_BLOCK,Wallonie,Charleroi,6061,Trevi La Propriété,trevi-lapropriete@omniwebsites.be,+32 71 33 37 69,BUY_REGULAR,369000,,3,,0,,,,,INSTALLED,AS_NEW,400,,630,0,0,0,0,1,0,0,0,0
+APARTMENT,APARTMENT,Wallonie,Wavre,1300,Thomas & Piron - Bâtiment,thomaspiron_wierde@importfrommedia.be,+32 800 20 131,BUY_REGULAR,355000,,2,1,0,1,,,58,NOT_INSTALLED,AS_NEW,98,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,CHOKIER,4400,Trevi Rasquain,trevi-rasquain@omniwebsites.be,+32 85 25 39 03,BUY_REGULAR,135000,2,2,,1,1,,,,SEMI_EQUIPPED,GOOD,90,,300,1,0,1,0,1,0,1,1,0
+HOUSE,HOUSE,Flandres,Wielsbeke,8710,Immo Roba,immoroba@contactme.skarabee.com,+32 9 388 53 53,BUY_REGULAR,508517,4,3,1,0,2,1,1,3,,GOOD,200,300,444,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Bruxelles,Woluwe-Saint-Lambert,1200,Victoire (Immobilier Neuf),victoire_1490@importfrommedia.be,+32 2 375 10 10,BUY_REGULAR,995000,2,5,1,2,4,6,1,,USA_HYPER_EQUIPPED,AS_NEW,298,45,117,1,0,0,0,0,0,1,1,0
+APARTMENT,PENTHOUSE,Flandres,Destelbergen,9070,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,585000,3,2,1,0,,,,1,HYPER_EQUIPPED,AS_NEW,102,,,0,0,0,0,0,0,1,0,0
+HOUSE,MIXED_USE_BUILDING,Flandres,Knokke-Heist,8300,Maelsteen Real Estate,storage6861_590@importfrommedia.be,,BUY_REGULAR,1500000,4,5,3,0,,,,6,,GOOD,286,725,2191,0,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Berchem,2600,Coprimmo Immobiliën,coprimmo@omniwebsites.be,+32 3 449 49 77,BUY_REGULAR,175000,,1,1,0,1,,,,SEMI_EQUIPPED,TO_BE_DONE_UP,54,,,1,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Molenbeek-Saint-Jean,1080,Perception Immobilière,percepti_anderlecht@importfrommedia.be,,BUY_REGULAR,265000,3,3,2,0,1,,2,,HYPER_EQUIPPED,AS_NEW,130,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Verviers,4800,THONNARD & TRINON,storage2960_991@importfrommedia.be,+32 87 34 11 22,BUY_REGULAR,50000,2,1,1,1,,,,,,TO_BE_DONE_UP,70,,130,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Bruxelles,Uccle,1180,CG.PROPERTIES,storage7134_313@importfrommedia.be,,BUY_REGULAR,259000,2,1,1,1,1,,,,SEMI_EQUIPPED,GOOD,66,,,1,0,0,0,0,0,0,0,0
+HOUSE,MIXED_USE_BUILDING,Flandres,Halle,1500,CENTURY 21 Pro Domo,century21prodomo@contactme.skarabee.com,+32 2 360 15 15,BUY_REGULAR,295000,,3,1,0,1,1,,,,GOOD,108,,0,0,0,0,0,0,0,0,0,0
+APARTMENT,KOT,Flandres,Courtrai,8500,Nele Tassaert Immo,ssaertimmobilien_883@importfrommedia.be,+32 56 32 39 39,BUY_REGULAR,198000,,2,2,0,2,,,,,,36,,,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,Herstal,4040,Le coin Immobilier sprl,demir@omniwebsites.be,+32 4 370 20 20,BUY_REGULAR,299000,2,3,1,0,2,,,,INSTALLED,GOOD,120,110,245,1,0,1,0,1,0,1,1,0
+APARTMENT,FLAT_STUDIO,Bruxelles,Laeken,1020,Residency,residenc_laeken@importfrommedia.be,+32 2 268 58 00,BUY_REGULAR,169000,2,0,1,0,1,,,,SEMI_EQUIPPED,GOOD,50,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Antwerpen,2018,ERA Stadsgoed,immoweb@erabelgium.be,+32 3 257 57 00,BUY_REGULAR,695000,2,3,1,0,,,,,,,140,,1662,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Marcinelle,6001,Century 21 Les Lacs - Beaux Villages,administration@century21leslacs.be,+32 71 61 30 59,BUY_REGULAR,125000,2,2,1,0,2,,1,1,INSTALLED,,100,,0,0,0,0,0,0,0,0,0,0
+APARTMENT,PENTHOUSE,Flandres,Evergem,9940,Immo Da Vinci,cryptxim_gent@importfrommedia.be,+32 9 273 55 55,BUY_REGULAR,445000,2,2,1,0,2,,,1,HYPER_EQUIPPED,AS_NEW,122,,,1,0,0,0,0,0,1,0,0
+APARTMENT,KOT,Bruxelles,Ixelles,1050,Latour et Petit Vente,latouretpetitvente@importfrommedia.be,+32 2 777 19 19,BUY_REGULAR,174680,,0,1,1,1,,,,,AS_NEW,20,,,0,0,0,1,0,0,0,0,0
+HOUSE,HOUSE,Flandres,Hasselt,3500,ERA Nobis - Hasselt,nobis@era.be,+32 11 35 14 00,BUY_REGULAR,390703,3,3,1,0,,,,,HYPER_EQUIPPED,GOOD,152,,248,0,0,1,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Brussel,1040,Found & Baker Brussel,foundbakerbrussel@contactme.skarabee.com,+32 2 660 00 00,BUY_REGULAR,525000,,2,2,0,2,1,,2,,GOOD,100,,,0,0,1,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,JETTE,1090,TREVI - Immobilier Neuf,trevitin@omniwebsites.be,+32 2 340 24 73,BUY_REGULAR,269000,4,1,1,0,1,,1,,USA_HYPER_EQUIPPED,,82,,,1,0,1,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Kapellen (2950),2950,Fimmo Makelaars,200059@secure.fortissimmo.net,+32 3 210 17 17,BUY_REGULAR,175000,,2,1,0,1,9,1,,INSTALLED,TO_BE_DONE_UP,,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Jabbeke,8490,Maelsteen Real Estate,storage6861_590@importfrommedia.be,,BUY_REGULAR,1390000,4,5,3,0,,,3,3,HYPER_EQUIPPED,AS_NEW,542,1900,2205,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Wallonie,Pont à Celles,6230,ERA Cedimmo – Nivelles,Immoweb@erabelgium.be,+32 67 70 07 79,BUY_REGULAR,227135,2,2,2,0,,,,1,,GOOD,94,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Knokke-Heist,8300,Knokke Real Estate,200358@secure.fortissimmo.net,+32 50 64 10 10,BUY_REGULAR,995000,4,2,1,0,1,12,2,3,HYPER_EQUIPPED,TO_RENOVATE,119,,600,0,0,0,0,0,0,0,0,0
+HOUSE,BUNGALOW,Flandres,MOERBEKE,9180,Van Hoye Vastgoed,immovanhoye@omniwebsites.be,+32 3 779 79 01,BUY_REGULAR,375000,4,3,1,0,1,,2,4,INSTALLED,GOOD,144,,593,0,0,0,0,1,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Asse,1730,Immo David,immodavid_zellik@importfrommedia.be,+32 2 305 51 33,BUY_REGULAR,210000,,2,1,0,1,,,,SEMI_EQUIPPED,GOOD,88,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Ninove,9400,Immo Marc Bvba,immo.marc@contactme.skarabee.com,+32 54 32 65 50,BUY_REGULAR,245000,2,3,1,0,1,,,,,TO_RENOVATE,,,271,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Wallonie,Vielsalm,6690,SCHMIDTIMMO,immobiliereschmidtwallonie@importfrommedia.be,+32 4 246 00 00,BUY_REGULAR,140000,,1,1,0,,,,1,INSTALLED,AS_NEW,50,,,0,0,0,1,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Uccle,1180,We Invest Bruxelles,storage4563_152@importfrommedia.be,+32 2 318 62 66,BUY_REGULAR,405000,4,2,1,1,1,,,1,USA_INSTALLED,,91,,,1,0,0,0,0,0,1,0,0
+HOUSE,MIXED_USE_BUILDING,Wallonie,Liege,4020,BHS IMMO,storage7296_779@importfrommedia.be,+32 4 370 23 70,BUY_REGULAR,450000,2,3,2,2,1,,3,3,USA_HYPER_EQUIPPED,GOOD,281,,351,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Flandres,Anvers,2020,Chase,chasevastgoed@omniwebsites.be,+32 3 740 03 90,BUY_REGULAR,199000,2,2,1,0,1,,,,,AS_NEW,98,,,1,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Flandres,Knokke-Heist,8300,LIV'immo,livimmo@contactme.skarabee.com,+32 50 62 53 62,BUY_REGULAR,1995000,4,4,3,0,,1,2,,,GOOD,240,,240,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Wallonie,Liège,4000,Home Expert Immo,homeexpertimmo@omniwebsites.be,+32 81 46 08 89,BUY_REGULAR,280000,2,2,1,0,1,,1,,HYPER_EQUIPPED,,90,,,1,0,0,0,1,0,1,0,0
+HOUSE,VILLA,Flandres,Alsemberg,1652,Scotty's Real Estate,storage5683_999@importfrommedia.be,+32 2 309 45 40,BUY_REGULAR,629000,4,4,2,0,2,,,4,INSTALLED,GOOD,250,639,783,1,0,1,0,0,0,1,1,0
+HOUSE,MIXED_USE_BUILDING,Flandres,Lanaken,3620,Som vastgoed Bvba,Z340233665003489000000002@secure.fortissimmo.net,,BUY_REGULAR,288000,,2,1,0,,11,1,,,GOOD,109,,1332,0,0,0,0,0,0,1,0,0
+APARTMENT,APARTMENT,Bruxelles,Bruxelles,1000,James Realty,jamesrea_ixelles@importfrommedia.be,+32 2 218 38 38,BUY_REGULAR,1295000,3,3,2,0,3,4,2,2,USA_HYPER_EQUIPPED,AS_NEW,250,,,1,0,0,0,0,0,1,0,1
+APARTMENT,GROUND_FLOOR,Flandres,Boezinge,8904,Correct Vastgoed Zedelgem,correctvastgoed@omniwebsites.be,,BUY_REGULAR,175000,2,1,1,0,1,,,,INSTALLED,GOOD,58,,,0,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Wallonie,Virton Ethe,6760,Juliet Immo Belgique,storage6775_817@importfrommedia.be,,BUY_REGULAR,410000,3,4,2,2,2,,1,3,INSTALLED,GOOD,180,300,530,1,0,1,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Kortrijk,8500,KORAMIC DEVELOPMENT,Z49401@secure.fortissimmo.net,+32 3 346 30 30,BUY_REGULAR,406857,,2,1,0,,4,,,,,91,60,,0,0,0,0,0,0,1,1,0
+HOUSE,HOUSE,Flandres,Pelt,3910,ERA Tournier,Immoweb@erabelgium.be,+32 11 55 04 40,BUY_REGULAR,629000,4,4,2,0,,,2,,HYPER_EQUIPPED,,406,,1206,0,0,0,0,0,0,0,0,0
+HOUSE,VILLA,Wallonie,Chatelet,6200,Club Immobilier,club@club-Immobilier.be,+32 71 51 23 45,BUY_REGULAR,368000,4,3,1,1,2,,1,2,INSTALLED,,164,700,818,0,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Flandres,Renaix,9600,Exper Immo Orta,trevi-orta@omniwebsites.be,+32 55 20 74 20,BUY_REGULAR,126000,2,1,1,0,,,1,,SEMI_EQUIPPED,GOOD,64,,,1,0,0,0,1,0,1,0,0
+HOUSE,HOUSE,Flandres,Waregem,8792,Immo Roba,immoroba@contactme.skarabee.com,+32 9 388 53 53,BUY_REGULAR,449000,4,4,2,0,2,1,1,4,,GOOD,187,,380,0,0,0,0,0,0,0,0,0
+HOUSE,HOUSE,Wallonie,FLAWINNE,5020,Trevi Imact,vente-imact@omniwebsites.be,+32 81 22 52 31,BUY_REGULAR,270000,,4,1,0,2,,2,,SEMI_EQUIPPED,JUST_RENOVATED,123,,0,1,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Wallonie,Lincent,4287,Honesty Marche -  7  bureaux proches de chez vous,honesty_marche-en-famenn@importfrommedia.be,+32 84 45 64 58,BUY_REGULAR,295000,3,3,1,1,2,,1,,USA_INSTALLED,GOOD,202,,1210,1,0,1,0,0,0,1,0,0
+HOUSE,VILLA,Wallonie,Chapelle-lez-Herlaimont,7160,Pacimmo,pacimmo_832@importfrommedia.be,+32 71 32 53 25,BUY_REGULAR,199900,4,3,1,1,1,,1,3,INSTALLED,TO_RESTORE,104,800,906,1,0,0,0,0,0,0,1,0
+HOUSE,HOUSE,Flandres,Merchtem,1785,Square Estate,square-estate@omniwebsites.be,+32 2 460 42 01,BUY_REGULAR,280000,,3,1,0,2,,1,2,SEMI_EQUIPPED,TO_RENOVATE,123,70,221,1,0,1,0,1,0,1,1,0
+APARTMENT,APARTMENT,Bruxelles,Anderlecht,1070,Trianon Invest,trianoninvest_anderlecht@importfrommedia.be,+32 2 520 19 00,BUY_REGULAR,330000,4,2,2,1,1,,1,1,USA_HYPER_EQUIPPED,AS_NEW,92,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,Esneux Tilff,4130,Nigel Immo,nigelimmo_oupeye_136@importfrommedia.be,+32 4 264 38 04,BUY_REGULAR,150000,3,2,1,1,1,,1,,SEMI_EQUIPPED,TO_RENOVATE,139,315,413,1,0,1,0,0,0,1,1,0
+HOUSE,VILLA,Flandres,Knokke,8300,Dream Estate By Colpin,2007403525002379000000002@secure.fortissimmo.net,+32 50 71 11 20,BUY_REGULAR,1795000,4,3,2,0,2,,2,,INSTALLED,TO_BE_DONE_UP,214,382,485,1,0,0,0,0,0,1,1,0
+APARTMENT,APARTMENT,Bruxelles,Auderghem,1160,Sorimo  - Bruxelles,sorimo_bruxelles@importfrommedia.be,+32 2 772 80 20,BUY_REGULAR,345000,2,1,1,0,1,,,,USA_HYPER_EQUIPPED,AS_NEW,70,,,1,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Flandres,Nijlen,2560,Solitt Vastgoed,storage8539_831@importfrommedia.be,,BUY_REGULAR,267000,3,2,1,0,1,,1,1,,GOOD,83,,635,0,0,0,0,0,0,1,0,0
+HOUSE,APARTMENT_BLOCK,Wallonie,Jupille-sur-Meuse,4020,WAUCOMONT srl : Visé – Barchon,info@waucomont.be,+32 4 287 32 82,BUY_REGULAR,329000,2,4,,3,3,,2,,INSTALLED,,167,,167,0,0,0,0,0,0,0,0,0
+APARTMENT,APARTMENT,Flandres,Borgerhout,2140,DVA Real Estate,dvarealestate@omniwebsites.be,+32 3 297 00 00,BUY_REGULAR,219000,2,1,1,0,1,,,,USA_INSTALLED,JUST_RENOVATED,44,,,1,0,0,0,1,0,0,0,0
+HOUSE,HOUSE,Wallonie,Dison,4820,Ekilibre,storage4144_459@importfrommedia.be,+32 87 31 63 00,BUY_REGULAR,219000,2,3,1,0,1,,,,INSTALLED,GOOD,109,299,414,0,0,0,0,0,0,1,1,0
+APARTMENT,SERVICE_FLAT,Flandres,Louvain,3001,Living Stone Leuven,pajota_493@importfrommedia.be,+32 16 60 76 09,BUY_REGULAR,159000,,1,1,1,1,,,,SEMI_EQUIPPED,GOOD,53,,,0,0,0,0,0,0,1,0,0
+HOUSE,HOUSE,Wallonie,FLÉMALLE,4400,Immobilière Bertrand Nandrin,xavierbertrand2@omniwebsites.be,+32 85 31 31 15,BUY_REGULAR,249000,4,3,1,0,,,,,INSTALLED,TO_BE_DONE_UP,95,,891,1,0,0,0,1,0,1,1,0
