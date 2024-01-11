@@ -5,6 +5,7 @@ import pandas as pd
 import time
 from bs4 import BeautifulSoup
 import json
+import random
 from concurrent.futures import ThreadPoolExecutor
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,31 +13,60 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 
+
+def creer_dossier(chemin_dossier):
+    # Vérifier si le dossier existe
+    if not os.path.exists(chemin_dossier):
+        # Créer le dossier s'il n'existe pas
+        os.makedirs(chemin_dossier)
+        print(f"Dossier '{chemin_dossier}' créé avec succès.")
+    else:
+        print(f"Dossier '{chemin_dossier}' existe déjà.")
+
+
 # Get the current date and time
 current_datetime = datetime.now()
 
 # Format the date and time as a string
 formatted_datetime = current_datetime.strftime("%Y%m%d_%H%M%S")
 
+chemin_dossier = "./RECORDS"
+creer_dossier(chemin_dossier)
+
 # Create the file name using the formatted date and time
 csv_file_name = rf'RECORDS/records_{formatted_datetime}.csv'
 
-# # Get the current script's directory
-# script_directory = os.path.dirname(os.path.abspath(__file__))
 
-# # Specify the relative path to the urls.txt file
-# file_path = os.path.join(script_directory, csv_file_name)
+#This function retrieve the latest url_list text file created
+def get_latest_file_with_prefix(prefix):
+    list_of_files = [file for file in os.listdir() if file.startswith(prefix)]
+    full_path_files = [os.path.abspath(file) for file in list_of_files]
+    
+    if not full_path_files:
+        return None  # No file with the specified prefix found
+
+    # Sort files by creation time (in reverse order to get the most recent first)
+    latest_file = max(full_path_files, key=os.path.getctime)
+
+    return latest_file
+
+prefix_to_search = "url_list"
+latest_file_path = get_latest_file_with_prefix(prefix_to_search)
+
+if latest_file_path:
+    print(f"The latest file starting with '{prefix_to_search}' is: {latest_file_path}")
+else:
+    print(f"No file starting with '{prefix_to_search}' found in the current directory.")
 
 
 # Open the file in read mode
-with open('url_list.txt', 'r') as file:
+with open(latest_file_path, 'r') as file:
     # Read each line and strip newline characters
     links = [line.strip() for line in file]
 
 
 def process_link(link):
     try:
-        #s = requests.Session()
         # Fetch HTML content using requests
         response = requests.get(link)
 
@@ -166,7 +196,7 @@ def process_link(link):
                 df.to_csv(csv_file_name, mode = 'a',header=False, index=False)
 
         
-            time.sleep(0.01)
+            time.sleep(random.uniform(0.01,0.04))
         
         else:
                 print(f"Failed to fetch content for URL: {link}")
@@ -177,12 +207,17 @@ def process_link(link):
 # Number of threads to use
 num_threads = 24
 
+t = time.time()
+
 # Using ThreadPoolExecutor to parallelize the job
 with ThreadPoolExecutor(max_workers=num_threads) as executor:
+    
     # Submit tasks to the executor for each link
     futures = [executor.submit(process_link, link) for link in links]
 
     # Wait for all tasks to complete
     for future in futures:
         future.result()  # This will raise an exception if an exception occurred in the thread
-    
+
+f = time.time()   
+print("temps", t-f)

@@ -30,7 +30,7 @@ def fetch_links(page_number):
     time.sleep(0.2)
 
 def main():
-    num_threads = 16
+    num_threads = 24
     # Nombre de pages à parcourir
     num_pages = 220
 
