@@ -38,7 +38,7 @@ while i <= 213:
             continue
            
       
-    time.sleep(3)
+    time.sleep(0.12)
 
 clean_list=set(tabLinks)
 
