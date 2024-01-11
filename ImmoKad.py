@@ -21,22 +21,36 @@ formatted_datetime = current_datetime.strftime("%Y%m%d_%H%M%S")
 # Create the file name using the formatted date and time
 csv_file_name = rf'RECORDS/records_{formatted_datetime}.csv'
 
-# # Get the current script's directory
-# script_directory = os.path.dirname(os.path.abspath(__file__))
+#fonction pour récupérer le dernier fichier avec les urls créé
+def get_latest_file_with_prefix(prefix):
+    list_of_files = [file for file in os.listdir() if file.startswith(prefix)]
+    full_path_files = [os.path.abspath(file) for file in list_of_files]
+    
+    if not full_path_files:
+        return None  # No file with the specified prefix found
 
-# # Specify the relative path to the urls.txt file
-# file_path = os.path.join(script_directory, csv_file_name)
+    # Sort files by creation time (in reverse order to get the most recent first)
+    latest_file = max(full_path_files, key=os.path.getctime)
+
+    return latest_file
+
+prefix_to_search = "url_list"
+latest_file_path = get_latest_file_with_prefix(prefix_to_search)
+
+if latest_file_path:
+    print(f"The latest file starting with '{prefix_to_search}' is: {latest_file_path}")
+else:
+    print(f"No file starting with '{prefix_to_search}' found in the current directory.")
 
 
 # Open the file in read mode
-with open('url_list.txt', 'r') as file:
+with open(latest_file_path, 'r') as file:
     # Read each line and strip newline characters
     links = [line.strip() for line in file]
 
 
 def process_link(link):
     try:
-        #s = requests.Session()
         # Fetch HTML content using requests
         response = requests.get(link)
 
@@ -175,7 +189,7 @@ def process_link(link):
         print(f"An error occurred while processing {link}: {e}")
 
 # Number of threads to use
-num_threads = 4 
+num_threads = 24 
 
 # Using ThreadPoolExecutor to parallelize the job
 with ThreadPoolExecutor(max_workers=num_threads) as executor:
