@@ -33,8 +33,8 @@ Assurez-vous d'avoir le fichier `url_list.txt` généré par la première partie
 
 ## Structure des fichiers
 
-- **script_part1.py :** Contient le code pour récupérer les liens d'annonces immobilières.
-- **script_part2.py :** Contient le code pour extraire les détails des annonces immobilières en utilisant les liens récupérés.
+- **retrieve_urls.py :** Contient le code pour récupérer les liens d'annonces immobilières.
+- **ImmoKad.py :** Contient le code pour extraire les détails des annonces immobilières en utilisant les liens récupérés.
 - **RECORDS/ :** Dossier où les fichiers CSV avec les détails des annonces sont enregistrés.
 - **url_list.txt :** Fichier texte contenant les liens d'annonces immobilières.
 
@@ -42,4 +42,5 @@ Assurez-vous d'avoir le fichier `url_list.txt` généré par la première partie
 
 - Le script utilise BeautifulSoup pour l'analyse HTML statique et Selenium pour le chargement dynamique des pages web.
 - Assurez-vous d'avoir un accès internet stable pendant l'exécution du script.
+
 
